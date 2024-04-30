@@ -1,8 +1,7 @@
 # encoding: utf-8
 
 from torch.utils import data
-import torch
-from torch.nn.utils.rnn import pad_sequence
+
 from .datasets.semeval_dataset import SemevalDatset
 
 
@@ -27,17 +26,6 @@ def make_data_loader(cfg, csv, is_train=True):
         dataset=datasets,
         batch_size=batch_size,
         shuffle=shuffle,
-        num_workers=num_workers,
-        pin_memory=False,
-        collate_fn=my_collate_fn)
+        num_workers=num_workers)
 
     return data_loader
-
-
-def my_collate_fn(batch):
-    inputs, values, explanations = zip(*batch)
-    inputs_padded = pad_sequence([i.clone().detach() for i in inputs], batch_first=True, padding_value=0)
-    values = torch.tensor(values) if not isinstance(values[0], torch.Tensor) else torch.stack(values)
-    explanations = torch.tensor(explanations) if not isinstance(explanations[0], torch.Tensor) else torch.stack(explanations)
-
-    return inputs_padded, values, explanations

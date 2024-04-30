@@ -7,7 +7,7 @@ import torch
 _C = CN()
 
 _C.MODEL = CN()
-_C.MODEL.DEVICE = "cuda:0" if torch.cuda.is_available() else "cpu"
+_C.MODEL.DEVICE = "cpu" if torch.cuda.is_available() else "cpu"
 
 _C.MODEL.NUM_CLASSES = 6
 _C.MODEL.DROPOUT = 0.25
