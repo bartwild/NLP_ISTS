@@ -36,7 +36,7 @@ def make_data_loader(cfg, csv, is_train=True):
 
 def my_collate_fn(batch):
     inputs, values, explanations = zip(*batch)
-    inputs_padded = pad_sequence([i.clone().detach() for i in inputs], batch_first=True, padding_value=0)
+    inputs_padded = pad_sequence([i.clone().detach() for i in inputs], batch_first=True, padding_value=1)
     values = torch.tensor(values) if not isinstance(values[0], torch.Tensor) else torch.stack(values)
     explanations = torch.tensor(explanations) if not isinstance(explanations[0], torch.Tensor) else torch.stack(explanations)
 

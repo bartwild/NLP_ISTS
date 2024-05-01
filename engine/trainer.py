@@ -1,7 +1,6 @@
 # encoding: utf-8
 
 import logging
-import numpy as np
 import torch
 import datetime
 
@@ -24,7 +23,7 @@ def do_train(
     logger = logging.getLogger("model.train")
     logger.info("Start training")
     model = model.to(device)
-    
+    j=0
     for epoch in range(epochs):  # loop over the dataset multiple times
         running_loss = 0.0
         running_loss1 = 0.0
@@ -35,17 +34,14 @@ def do_train(
         for i, data in enumerate(train_loader, 0):
             inputs, value, explanation = data[0].to(device), data[1].to(device), data[2].to(device)
             # forward + backward + optimize
+            #print(inputs, value, explanation)
             out1, out2 = model(inputs)
-            if out1.dim() == 1 and out1.size(0) == 1:
-                out1 = out1.expand(value.size(0))
+            #print(out1, out2)
 
-            explanation = explanation.long()
-            loss1 = losses[0](out1, value.view(-1))
-            loss2 = losses[1](out2, explanation.view(-1))
-            #loss1 = losses[0](out1, value)
-            #loss2 = losses[1](out2, explanation)
+            explanation = explanation.type(torch.LongTensor).to(device)
+            loss1 = losses[0](out1, value)
+            loss2 = losses[1](out2, explanation)
             loss = loss1 + loss2
-
 
             optimizer.zero_grad()
             loss.backward()
@@ -67,10 +63,10 @@ def do_train(
         running_loss = 0.0
         running_loss1 = 0.0
         running_loss2 = 0.0
-
-
-        logger.info('Finished Training')
-        logger.info('Saving model ...')
-        output_filename = output_dir + '/' + datetime.datetime.now().strftime("%d%m%Y%H%M%S") + '_model.pt'
-        torch.save(model.state_dict(), output_filename) 
-        logger.info('Model saved as :' + output_filename)
+        j+=1
+        if j % 50 == 0:
+            logger.info('Finished Training')
+            logger.info('Saving model ...')
+            output_filename = output_dir + '/' + datetime.datetime.now().strftime("%d%m%Y%H%M%S") + '_testing_model.pt'
+            torch.save(model.state_dict(), output_filename) 
+            logger.info('Model saved as :' + output_filename)

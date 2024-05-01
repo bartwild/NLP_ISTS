@@ -42,7 +42,7 @@ python tools/train_net.py --config_file configs/roberta_config.yml
 # Testing model 
 To test model path to model weights has to be provided:
 ```bash
-python ./toolst/est_net.py TEST.WEIGHT  "output/29052021142858_model.pt"
+python ./tools/test_net.py TEST.WEIGHT  "output/29052021142858_model.pt"
 ```
 Changing other parameters works just like in [training](#training-model).
 

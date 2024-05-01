@@ -3,7 +3,6 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import torch.optim as optim
 from fairseq.models.roberta import RobertaModel
 
 
@@ -37,7 +36,8 @@ class RobertaISTS(torch.nn.Module):
         #STS value prediction
         x1 = self.relu1(self.linear1(x))
         x1 = self.dropout2(x1)
-        out1 = self.linear2(x1)[0]
+        # out1 = self.linear2(x1)[0]
+        out1 = self.linear2(x1).squeeze(-1)
 
         #explanatory layer
         x2 = self.relu2(self.linear3(x))
