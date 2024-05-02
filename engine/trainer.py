@@ -67,6 +67,6 @@ def do_train(
         if j % 50 == 0:
             logger.info('Finished Training')
             logger.info('Saving model ...')
-            output_filename = output_dir + '/' + datetime.datetime.now().strftime("%d%m%Y%H%M%S") + '_testing_model.pt'
+            output_filename = output_dir + '/' + datetime.datetime.now().strftime("%d%m%Y%H%M%S") + '_testing_model_same.pt'
             torch.save(model.state_dict(), output_filename) 
             logger.info('Model saved as :' + output_filename)
