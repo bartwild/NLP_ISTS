@@ -79,11 +79,11 @@ There are 3 perl scripts created by competition organizers (dowloaded and saved 
 
 To use them, output files need to be in specific format. To create files with gold standard file structure use following command:
 ```bash
-python .\tools\create_wa.py TEST.WEIGHT  "output/29052021142858_model.pt" DATASETS.TEST_WA "data/datasets/STSint.testinput.answers-students.wa"
+python /tools/create_wa.py TEST.WEIGHT  "output/29052021142858_model.pt" DATASETS.TEST_WA "data/datasets/STSint.testinput.answers-students.wa"
 ```
 This will create the .wa file with predictions (keeping the gold standard .wa file structure) in `output` directory. To evalute this file perl interpreter has to be installed on the machine. 
 ```bash
-perl .\evalF1_penalty.pl data/datasets/STSint.testinput.answers-students.wa output/STSint.testinput.answers-student_predicted.wa --debug=0
+perl tests/evalF1_penalty.pl data/datasets/STSint.testinput.answers-students.wa output/STSint.testinput.answers-student_predicted.wa --debug=0
 ```
 
 # Project structure
@@ -132,38 +132,6 @@ perl .\evalF1_penalty.pl data/datasets/STSint.testinput.answers-students.wa outp
 
 ```
 
-# Pretrained RoBERTa
-
-Base RoBERTa model can be replaced with pretrained one before the proper training. Follow the instructions under this [link](https://github.com/pytorch/fairseq/blob/master/examples/roberta/README.glue.md). To fine-tune model on STS-B GLUE task modify command from 3):
-```bash
-TOTAL_NUM_UPDATES=3598  # 10 epochs through RTE for bsz 16
-WARMUP_UPDATES=214      # 6 percent of the number of updates
-LR=2e-05                # Peak LR for polynomial LR scheduler.
-NUM_CLASSES=1
-MAX_SENTENCES=16        # Batch size.
-ROBERTA_PATH=/content/drive/MyDrive/NLP/fairseq/roberta.large/model.pt
-
-CUDA_VISIBLE_DEVICES=0 fairseq-train STS-B-bin/ \
-    --restore-file $ROBERTA_PATH \
-    --max-positions 512 \
-    --batch-size $MAX_SENTENCES \
-    --max-tokens 4400 \
-    --task sentence_prediction \
-    --reset-optimizer --reset-dataloader --reset-meters \
-    --required-batch-size-multiple 1 \
-    --init-token 0 --separator-token 2 \
-    --arch roberta_large \
-    --criterion sentence_prediction \
-    --num-classes $NUM_CLASSES \
-    --dropout 0.1 --attention-dropout 0.1 \
-    --weight-decay 0.1 --optimizer adam --adam-betas "(0.9, 0.98)" --adam-eps 1e-06 \
-    --clip-norm 0.0 \
-    --lr-scheduler polynomial_decay --lr $LR --total-num-update $TOTAL_NUM_UPDATES --warmup-updates $WARMUP_UPDATES \
-    --fp16 --fp16-init-scale 4 --threshold-loss-scale 1 --fp16-scale-window 128 \
-    --max-epoch 10 \
-    --regression-target --best-checkpoint-metric loss \
-    --find-unused-parameters;
-```
 
 # Credits
 Repo template - L1aoXingyu/Deep-Learning-Project-Template

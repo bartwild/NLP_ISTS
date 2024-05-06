@@ -11,9 +11,15 @@ class RobertaISTS(torch.nn.Module):
         super(RobertaISTS, self).__init__()
 
         self.roberta = torch.hub.load('pytorch/fairseq', 'roberta.large')
+        i=0
         for param in self.roberta.parameters():
+            i+=1
             param.requires_grad = False
-
+        j=0
+        for param in self.roberta.parameters():
+            j+=1
+            if j >= i - 40:
+                param.requires_grad = True
         self.linear1 = nn.Linear(in_features=1024, out_features=hidden_neurons, bias=True)
         self.linear2 = nn.Linear(in_features=hidden_neurons, out_features=1, bias=True)
         self.linear3 = nn.Linear(in_features=1024, out_features=hidden_neurons, bias=True)
