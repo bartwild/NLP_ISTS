@@ -1,0 +1,919 @@
+chunk1,chunk2,value,explanation
+A battery to a bulb,the bulb and the battery,5,EQUI
+should connect,are,3,SIMI
+in a closed path.,in a closed path,5,EQUI
+is connected,is connected,5,EQUI
+to the battery terminal.,to the negative battery terminal,4,SPE2
+thebulb terminal,terminal 1,4,SPE2
+in a closed path,in closed paths,4,SPE1
+Bulb A and C,Bulbs A and C,5,EQUI
+with the battery,with the battery,5,EQUI
+still,still,5,EQUI
+will be contained,are,4,SIMI
+the voltage,different electrical states,3,REL
+of the battery.,A battery,5,EQUI
+to the battery,with the battery.,5,EQUI
+a closed path,in the same closed path,4,SPE2
+from terminal 1 and 2,Terminals 1 and 2,5,EQUI
+between any two terminals.,"Terminals 1, 2 and 3",2,SPE2
+within closed paths,in a closed path,4,SPE2
+are contained,are,5,EQUI
+Bulb A and B,bulbs A and B,5,EQUI
+are,are,5,EQUI
+on a path,in the same path,4,SPE2
+"bulbs a, b, and c",A and C,3,SPE2
+were,are,4,SIMI
+on closed paths,in closed paths,5,EQUI
+still,still,5,EQUI
+contained,contained,5,EQUI
+Bulbs A and C,Bulbs A and C,5,EQUI
+with the batery,with the battery,5,EQUI
+is connected,are connected,5,EQUI
+Terminal five to the positive battery terminal.,Terminal 5 and the positive terminal,5,EQUI
+electricity,different electrical states,4,REL
+the battery,A battery,5,EQUI
+terminal 1 to the positive terminal,Terminal 1 and the positive terminal,5,EQUI
+is connected,are separated,4,OPPO
+contained,are not,4,OPPO
+"""bulb A""""s path switch Z""",Switch Y and bulb A in the same closed path,2,REL
+"in an open path,",in a closed path,4,OPPO
+was,was not,4,OPPO
+Bulb C,Bulb C,5,EQUI
+will be a gap,are not connected.,4,SIMI
+between the positive battery terminal and the bulb terminal,the terminals,3,SPE1
+is connected,is connected,5,EQUI
+terminal 1,terminal 1,5,EQUI
+to the negative battery terminal,to the negative battery terminal,5,EQUI
+between the bulb terminal and the battery terminal.,the terminals,3,SPE1
+is no connection,are not connected,5,EQUI
+is not connected,are not connected,5,EQUI
+terminal 1 to terminal 6.,Terminals 1 and 6,5,EQUI
+for bulb a,Bulb A,5,EQUI
+to a battery,with the battery.,5,EQUI
+within a closed path,in a closed path,5,EQUI
+Bulb A and B,A and B,5,EQUI
+still,still,5,EQUI
+are contained,are,5,EQUI
+at the negative connection.,the battery,4,REL
+to the positive battery terminal,to the negative battery terminal,4,OPPO
+terminal 1,terminal 1,5,EQUI
+is connected,is connected,5,EQUI
+off,an incomplete circuit,4,REL
+without bulb B,Bulbs A and C,3,SPE2
+other closed path,in a closed path,5,EQUI
+to the negative terminal of the battery,in the same electrical state,3,REL
+are connected,are connected,5,EQUI
+Terminal 1 and terminal 2,Terminals 1 and 2,5,EQUI
+with the battery.,with the battery,5,EQUI
+bulb b and c,B and C,5,EQUI
+are contained,are,5,EQUI
+in the same path,in the same path,5,EQUI
+a gap,no gap,4,OPPO
+there,there,5,EQUI
+is,is,5,EQUI
+are,is,5,EQUI
+within the same path,in its own path,3,SPE2
+bulb A and B,each bulb,3,SPE1
+does not affect,are not,3,SIMI
+switch Y of bulb A,Switch Y and bulb A,5,EQUI
+the closed circuit,in the same closed path,4,REL
+in a closed circuit,in closed paths,4,REL
+with the battery terminal,with the battery,5,EQUI
+were,are contained,4,SIMI
+still,still,5,EQUI
+the paths,Bulbs A and C,4,REL
+is,is contained,5,EQUI
+the battery,the battery,5,EQUI
+on a closed path,in a closed path,5,EQUI
+Circuit 4,in 4,5,EQUI
+in a closed path.,in a closed path,5,EQUI
+the battery,The battery,5,EQUI
+is not contained,is not,5,EQUI
+are connected,are,5,EQUI
+still,still,5,EQUI
+bulbs A and B,A and B,5,EQUI
+to the closed circuit,in a closed path,4,REL
+containing the battery,with the battery,5,EQUI
+the voltage,different electrical states,3,REL
+the terminals,at the terminals,5,EQUI
+of the battery,A battery,5,EQUI
+bulb b and c,bulbs B and C,5,EQUI
+in a closed path,in closed paths,4,SPE1
+still,still,5,EQUI
+with the battery.,with the battery,5,EQUI
+are,are,5,EQUI
+with the battery,with the battery,5,EQUI
+are contained,are,5,EQUI
+in different paths,in different paths,5,EQUI
+bulbs a and c,A and C,5,EQUI
+is not separated,are not separated,5,EQUI
+positive battery terminal from terminal 4,Terminal 4 and the positive terminal,5,EQUI
+by a gap,by the gap,5,EQUI
+is,are,5,EQUI
+of the two terminals,The terminals,4,SPE1
+no difference in electrical states,in the same state.,5,EQUI
+does not effect,does not include,3,SIMI
+bulbs B and C,with B and C,5,EQUI
+switch X,X,5,EQUI
+There,there,5,EQUI
+a gap,a gap,5,EQUI
+is,is,5,EQUI
+in the circut.,in the circuit,5,EQUI
+The battery terminals,at the terminals,5,EQUI
+different electrical states.,different electrical states,5,EQUI
+the terminals,"Terminals 1, 2 and 3",4,SPE2
+to the negative terminal of the battery.,to the negative battery terminal,5,EQUI
+are connedted,are connected,5,EQUI
+for bulb A,"Switch Z, Switch X, Bulbs A and C and the battery",1,SPE1
+switches X and Z,"Switch Z, Switch X, Bulbs A and C and the battery",2,SPE1
+the closed circuit,a closed path,4,REL
+each bulb,each bulb,5,EQUI
+has,is,4,SIMI
+its own pathway,in its own path,5,EQUI
+a gap in the circuit,in a closed path,4,REL
+that,in a closed path,4,OPPO
+C,Bulb C,5,EQUI
+was,was not,4,OPPO
+in different paths,in different paths,5,EQUI
+Blub A and bulb C,A and C,5,EQUI
+with the same battery.,with the battery,4,SPE1
+are contained,are,5,EQUI
+bulbs a and c,A and C,5,EQUI
+ina closed path,in the same path,4,SPE2
+are not contained,are not,5,EQUI
+terminal 4 to the positive terminal,Terminal 4 and the positive terminal,5,EQUI
+is connected,are connected,5,EQUI
+the path,in the same path,4,SPE2
+"with the battery,",a bulb and a switch,3,REL
+the switch,the switch,5,EQUI
+doesnt affect,affects,4,OPPO
+if,If,5,EQUI
+are connected,are connected,5,EQUI
+"terminals 4,5, and 6","Terminals 4, 5 and 6",5,EQUI
+to the positive terminal,to the positive battery terminal,5,EQUI
+the voltage,different electrical states,3,REL
+within the battery,A battery,5,EQUI
+the bulb,the battery,3,REL
+no difference,in the same electrical state,2,SIMI
+terminal 1 and terminal 2,Terminals 1 and 2,5,EQUI
+is connected,are connected,5,EQUI
+terminal 6 to postive end of battery and the voltage meter,Terminal 6 and the positive terminal,3,SPE2
+are connected,are connected,5,EQUI
+the two terminals,Terminal 6 and the positive terminal,4,SPE2
+the same,in the same electrical state,2,SIMI
+terminal 1 and terminal 4,Terminals 1 and 4,5,EQUI
+was not,is,4,OPPO
+Switch Y of bulb A.,both,5,EQUI
+on the path,no path,4,OPPO
+Switch Y of bulb A.,switch Y and bulb A,5,EQUI
+is seperated,is no gap,4,OPPO
+The positive battery terminal from the negative battery terminal,between the terminals,4,SPE1
+was not connected,was no longer,5,EQUI
+to the battery.,with the battery,5,EQUI
+bulb c,Bulb C,5,EQUI
+a gap in the path,in a closed path,4,OPPO
+Bulb A,bulb A,5,EQUI
+is connected,are connected,5,EQUI
+a terminal to the positive terminal of the battery,Terminal 4 and the positive terminal,4,SPE2
+the path open,an open path,5,EQUI
+bulb C,Bulb C,5,EQUI
+was not contained,was,4,OPPO
+with the battery,with the battery,5,EQUI
+in a closed path,in a closed path,5,EQUI
+still,no longer,4,OPPO
+bulbs a and c,A and C,5,EQUI
+have to be contained,must be contained,5,EQUI
+Bulbs,The damaged bulb and the other bulb,3,SPE2
+in closed paths,in the same path,3,SPE2
+to the battery.,with the battery,5,EQUI
+still,still,5,EQUI
+on a closed path,in a closed path,5,EQUI
+bulb A,Bulb A,5,EQUI
+will be contained,is,4,SIMI
+a closed path,in closed paths,4,SPE1
+still,still,5,EQUI
+had,are contained,4,SIMI
+Bulb A and C,Bulbs A and C,5,EQUI
+with the battery.,with the battery,5,EQUI
+is contained,is contained,5,EQUI
+with the battery,with the battery.,5,EQUI
+bulb a,Bulb A,5,EQUI
+in a closed path,in a closed path,5,EQUI
+did not effect,are not in the same closed path,2,SIMI
+Switch Y bulb A,Switch Y and bulb A,5,EQUI
+the path was closed,in a closed path,5,EQUI
+creates,creates,5,EQUI
+The damaged bulb,a damaged bulb,5,EQUI
+a gap,a gap,5,EQUI
+The battery,The battery,5,EQUI
+in a closed path.,in a closed path,5,EQUI
+is not,is not,5,EQUI
+by a gap,by the gap,5,EQUI
+is not separated,are not separated,5,EQUI
+the positive battery terminal from terminal 6.,Terminal 6 and the positive terminal,5,EQUI
+in the path,in a path,5,EQUI
+of the circuit,The battery,2,REL
+in the path,which,5,EQUI
+the bulb,any other components,2,SPE1
+is not connected,are not connected,5,EQUI
+the terminal to the battery terminal,the terminals,4,SPE2
+there,there,5,EQUI
+is,is,5,EQUI
+a gap.,a gap,5,EQUI
+a closed path.,the path,5,EQUI
+is not,is not closed,5,EQUI
+is not anymore,was no longer,5,EQUI
+for bulb c,Bulb C,5,EQUI
+a closed circuit,in a closed path,4,REL
+in the circuit,in a circuit,5,EQUI
+a gap,a gap,5,EQUI
+there,there,5,EQUI
+would be,is,4,SIMI
+with the battery,with the battery,5,EQUI
+in a closed path,in closed paths,4,SPE1
+remain,are still,5,EQUI
+bulbs b and c,bulbs B and C,5,EQUI
+on a closed path,in a closed path,5,EQUI
+battery,The battery,5,EQUI
+on a closed path,which,5,EQUI
+is contained,is contained,5,EQUI
+the bulb holder,in a circuit,2,REL
+a gap,a gap,5,EQUI
+There,there,5,EQUI
+will be,is,4,SIMI
+in a closed path,in closed paths,4,SPE1
+bulb a and bulb c,Bulbs A and C,5,EQUI
+with the battery.,with the battery,5,EQUI
+contained,contained,5,EQUI
+still,still,5,EQUI
+were,are,4,SIMI
+in a closed circuit,in a closed path,4,REL
+a and c,Bulbs A and C,4,SPE2
+are,are,5,EQUI
+The terminal to a negative terminal.,between the terminals,4,SPE1
+is connected,is no gap,4,REL
+are,are,5,EQUI
+"Bulb A, bulb B and bulb C",A and C,3,SPE1
+in different closed paths.,in different paths,5,EQUI
+is,are contained,5,EQUI
+when,When,5,EQUI
+on a closed path,in the same path,4,SPE2
+the switch with the bulb,the switch and the bulb,5,EQUI
+the bulb with a switch,the switch and the bulb,5,EQUI
+is contained,are contained,5,EQUI
+in a closed path,in the same path,4,SPE2
+if,When,3,SIMI
+as the battery,containing the battery,5,EQUI
+in the same closed path,in the closed path,5,EQUI
+the blub,The bulb,5,EQUI
+is not contained,is not,5,EQUI
+the two terminals,at the terminals,4,SPE1
+different electrical states.,different electrical states,5,EQUI
+the circuit path incomplete.,an incomplete circuit,4,REL
+the positive battery terminal,Terminal 1 and the positive terminal,4,SPE1
+by a gap,by the gap,5,EQUI
+is separated,are separated,5,EQUI
+in a closed circuit,in the same closed path,4,REL
+were,were,5,EQUI
+contained,contained,5,EQUI
+B and C,Bulb B and Bulb C,4,SPE2
+with the battery,with the battery.,5,EQUI
+still,still,5,EQUI
+bulbs A and C,A and C,4,SPE1
+are not contained,are not,5,EQUI
+in the same closed path.,in the same path,5,EQUI
+terminal 1 to terminal 4,Terminals 1 and 4,5,EQUI
+is connected,are connected,5,EQUI
+with the battery,with the battery.,5,EQUI
+bulb b and c,Bulb B and Bulb C,5,EQUI
+still,still,5,EQUI
+were,were contained,5,EQUI
+in a closed path,in the same closed path,4,SPE2
+B AND C,B and C,5,EQUI
+A,A,5,EQUI
+SHARE,containing,4,SIMI
+IS,containing,4,SIMI
+ON ITS ON PATH,a path,4,SPE1
+A PATH,a different path,4,SPE2
+the circut is not complete,an incomplete circuit,5,EQUI
+containing,containing,5,EQUI
+a closed circuit,a closed path,4,REL
+a bulb and a battery,the bulb and a battery,5,EQUI
+a bulb and a battery,both,5,EQUI
+in a closed path,in a path,5,EQUI
+The battery,The battery,5,EQUI
+that,which,5,EQUI
+is,is contained,5,EQUI
+does not contain,does not contain,5,EQUI
+any other components.,any other components,5,EQUI
+Terminal 4 to the positive battery terminal.,Terminal 4 and the positive terminal,5,EQUI
+is connected,are connected,5,EQUI
+by a gap,by the gap,5,EQUI
+was not separted,are not separated,5,EQUI
+the batter termnal from terminal,Terminal 4 and the positive terminal,3,SPE2
+"""Without A,","If bulb A burns out,",3,SPE2
+"no closed path""",in a closed path,4,OPPO
+the terminals,Terminal 1 and the positive terminal,3,SPE2
+on a different path,in a closed path,4,SPE1
+bulb A,Bulb A,5,EQUI
+is,is contained,5,EQUI
+"in the same closed path,",in the same path,5,EQUI
+if,When,3,SIMI
+are contained,are contained,5,EQUI
+a bulb and a switch,the switch and the bulb,5,EQUI
+is not seperated,are not separated,5,EQUI
+The positive terminal,Terminal 4 and the positive terminal,4,SPE1
+from the gap,by the gap,5,EQUI
+on the path,no path,4,OPPO
+Switch Y of bulb A.,switch Y and bulb A,5,EQUI
+Switch Y of bulb A.,both,5,EQUI
+is not,is,4,OPPO
+in the same path,in a closed path,4,SPE1
+of bulb a.,Bulb A,5,EQUI
+the positive battery terminak from terminal 4,Terminal 4 and the positive battery terminal,5,EQUI
+has shorted out,is a short circuit,5,EQUI
+a positive and negative connection,is connected to the negative battery terminal,2,SPE2
+the positive terminal and negative terminal,at the terminals,4,SPE1
+is no closed path,the path is not closed,5,EQUI
+are not connected,are not connected,5,EQUI
+The terminals,Terminals 1 and 6,4,SPE1
+with the battery,with the battery.,5,EQUI
+in a closed circuit,in a closed path,4,REL
+was,is contained,4,SIMI
+bulb a,Bulb A,5,EQUI
+"damaged,","damaged,",5,EQUI
+ae contained,are,5,EQUI
+if,If,5,EQUI
+the bulb A and B,A and B,5,EQUI
+C,C,5,EQUI
+is,is,5,EQUI
+in a closed path,in a closed path,5,EQUI
+are not connected,are not connected,5,EQUI
+the positive battery terminal and terminal 1,Terminal 1 and the positive terminal,5,EQUI
+a closed circuit,in the same closed path,3,REL
+terminal one to a positive battery terminal,Terminal 1 and the positive terminal,5,EQUI
+is connected,are separated,4,OPPO
+was a gap in the connection,are separated by the gap,4,SIMI
+and,and,5,EQUI
+bulbs B and C,B and C,5,EQUI
+Bulb A,A,5,EQUI
+on its own closed path,a path,3,SPE1
+is,containing,4,SIMI
+are,containing,4,SIMI
+on the same closed path,a different path,3,REL
+still,still,5,EQUI
+were,are contained,4,SIMI
+with the battery,with the battery,5,EQUI
+on closed paths,in closed paths,5,EQUI
+Bulbs A and C,Bulbs A and C,5,EQUI
+is not connected,are not connected,5,EQUI
+the terminal to the positive battery terminal,Terminal 1 and the positive terminal,4,SPE2
+the terminal to the battery,terminal 1 to the negative battery terminal,3,SPE2
+is connected,is connected,5,EQUI
+is,is,5,EQUI
+The battery,the battery,5,EQUI
+in an open path,in an open path,5,EQUI
+a gap,a gap,5,EQUI
+A damaged bulb,a damaged bulb,5,EQUI
+creates,creates,5,EQUI
+the positive battery current,to the positive battery terminal,4,REL
+of the gap,by a gap,5,EQUI
+between the two battery terminals,at the terminals,3,SPE1
+the electrical states,different electrical states,4,SPE2
+voltage,different electrical states,3,REL
+a battery,A battery,5,EQUI
+still,still,5,EQUI
+to battery,with the battery.,5,EQUI
+have connection,are in a closed path,4,SIMI
+switch Y and Z to bulb A.,"A, C, Z and X",2,SPE1
+connected,a path,3,REL
+The battery and the bulb,the bulb and the battery,5,EQUI
+in a closed path,in a closed path,5,EQUI
+must be,are,4,SIMI
+was,is,4,SIMI
+no gap,no gap,5,EQUI
+There,There,5,EQUI
+between terminal 6 and the positive terminal.,between terminal 6 and the positive terminal,5,EQUI
+were,are contained,4,SIMI
+in a closed path,in closed paths,4,SPE1
+with the battery,with the battery,5,EQUI
+bulb a and bulb c,Bulbs A and C,5,EQUI
+still,still,5,EQUI
+the bulb,the bulb,5,EQUI
+if,If,5,EQUI
+will be off,affects,2,REL
+the path,in the same path,3,SPE2
+with itself.,does not contain any other components,3,SIMI
+is,is contained,5,EQUI
+in a closed path,which,5,EQUI
+the battery,The battery,5,EQUI
+in a closed path,in a closed path,5,EQUI
+bulb a,Bulb A,5,EQUI
+still,still,5,EQUI
+with the battery,with the battery.,5,EQUI
+was,was contained,5,EQUI
+in a closed path,in the same closed path,4,SPE2
+the terminals,the terminals,5,EQUI
+are not connected,are not connected,5,EQUI
+is,are contained,5,EQUI
+if,When,3,SIMI
+on the same path,in the same path,5,EQUI
+the swithch the bulb,the switch and the bulb,5,EQUI
+The ppositive battery terminal in terminal 6.,Terminal 6 and the positive terminal,5,EQUI
+is connected,are connected,5,EQUI
+for bulb a and c,Bulbs A and C,5,EQUI
+a gap in the path,in closed paths,4,OPPO
+terminal one to terminal six,Terminals 1 and 6,5,EQUI
+is not connected,are not connected,5,EQUI
+gap,by a gap,5,EQUI
+in the closed path,in a closed path,5,EQUI
+is,is,5,EQUI
+bulb a,bulb A,5,EQUI
+the negative side of the battery.,to the negative battery terminal,5,EQUI
+the terminals,"Terminals 1, 2 and 3",3,SPE2
+is connected,are connected,5,EQUI
+Terminal 4 to the positve battery terminal,Terminal 4 and the positive terminal,5,EQUI
+in the pathway.,a path,5,EQUI
+was,is,4,SIMI
+there,there,5,EQUI
+with the battery.,with the battery,5,EQUI
+are,are,5,EQUI
+in separate closed paths,in different paths,5,EQUI
+Bulbs a and c,A and C,5,EQUI
+in a closed path,in a closed path,5,EQUI
+need to be,are,3,SIMI
+The battery and bulb,the bulb and the battery,5,EQUI
+are connected,are connected,5,EQUI
+terminal 1 and terminal 4,Terminals 1 and 4,5,EQUI
+If,If,5,EQUI
+affects,affects,5,EQUI
+the switch,the switch,5,EQUI
+is connected,are,3,SIMI
+a bulb.,the bulb,5,EQUI
+the path,in the same path,4,SPE2
+"to the battery,",a bulb and a switch,3,REL
+the circut,the path,4,REL
+is no longer closed.,is not closed,5,EQUI
+the gap,a chemical reaction,2,REL
+a difference in electrical states,different electrical states,4,SIMI
+"""the battery terminals",the battery,4,SPE1
+The positive battery terminal from terminal 4.,Terminal 4 and the positive battery terminal,5,EQUI
+a gap,by a gap,5,EQUI
+the positive battery terminal from terminal 4,Terminal 4 and the positive battery terminal,5,EQUI
+terminal 1 and 4,Terminals 1 and 4,5,EQUI
+connected,are connected,5,EQUI
+the two terminals,Terminals 1 and 4,4,SPE2
+are connected,are connected,5,EQUI
+from bulb,Bulb A,4,SPE2
+to battery,with the battery.,5,EQUI
+a path,in a closed path,5,EQUI
+are,are,5,EQUI
+in closed paths.,in closed paths,5,EQUI
+Bulb B and bulb C,bulbs B and C,5,EQUI
+still,still,5,EQUI
+in a closed path,which,5,EQUI
+without another component.,does not contain any other components,5,EQUI
+The battery,The battery,5,EQUI
+is contaied,is contained,5,EQUI
+in a closed path,in a path,5,EQUI
+to the battery,with the battery,5,EQUI
+a closed path,in closed paths,4,SPE1
+without any devices,does not contain any other components,5,EQUI
+in a closed path,which,5,EQUI
+is contained,is contained,5,EQUI
+in a closed path,in a closed path,5,EQUI
+the battery,The battery,5,EQUI
+a closed path,in closed paths,4,SPE1
+contains,are contained,5,EQUI
+still,still,5,EQUI
+the battery and bulb a and bulb c,Bulbs A and C with the battery,5,EQUI
+that,in closed paths,4,SPE1
+Terminal,Terminals 1 and 2,3,SPE2
+the same electrical state,in the same electrical state,5,EQUI
+is separated,is,4,OPPO
+by a gap,no gap,4,OPPO
+The positive battery terminal from terminal 4.,between terminals 1 and 4,3,SPE1
+the bulb and the switch,the switch and the bulb,5,EQUI
+if,When,3,SIMI
+are contained,are contained,5,EQUI
+by a closed path,in the same path,4,SPE2
+Terminal 1 and the positive terminal,Terminal 1 and the positive terminal,5,EQUI
+different electrical states.,by the gap,2,REL
+bulb a,A and B,4,SPE1
+with bulb C,C,5,EQUI
+will burn out,"burns out,",4,SIMI
+are connected,are connected,5,EQUI
+terminal 1 and 2,Terminals 1 and 2,5,EQUI
+a voltage decrease,A non-zero voltage,3,REL
+a gap,by a gap.,5,EQUI
+in the closed path,in.,5,EQUI
+in the closed path,a closed path,5,EQUI
+bulb c,C,5,EQUI
+is not included,is not,5,EQUI
+bulb a,bulb A,5,EQUI
+creates a gap,"burns out,",3,REL
+between different terminals,the electrical state,3,REL
+voltage,voltage,5,EQUI
+the burnt out bulb,a damaged bulb.,4,SPE1
+in a closed path,in a closed path,5,EQUI
+is not contained,is not,5,EQUI
+the battery,The battery,5,EQUI
+between the positive and negative terminals of the battery,in the same electrical state,3,REL
+terminals,Terminals 1 and 2,3,SPE2
+no short circuit,a chemical reaction,3,REL
+to the battery.,A battery,5,EQUI
+is connected,are not connected,4,OPPO
+Terminal 6 to the positive battery terminal,Terminals 1 and 6,3,SPE1
+a different electrical state,different electrical states,4,SPE1
+The battery,A battery,5,EQUI
+the circuit,at the terminals,3,REL
+bulb a,each bulb,3,SPE1
+when,When,5,EQUI
+is connected,are contained,2,SIMI
+the switch between the bulb and the battery,the switch and the bulb,3,SPE2
+within the same closed path,in the same closed path,5,EQUI
+is contained,was contained,4,SIMI
+bulb a,Bulb A,5,EQUI
+as the battery,with the battery.,5,EQUI
+in a dfferent path,in the same closed path,4,OPPO
+Switch Y,Switch Y and bulb A,4,SPE1
+was,are not,4,OPPO
+are,were contained,4,SIMI
+bulbs b and c,Bulb B and Bulb C,5,EQUI
+with the battery.,with the battery.,5,EQUI
+in a closed path,in the same closed path,4,SPE2
+the gap,by the gap,5,EQUI
+in terminal 2,Terminal 2 and the positive terminal,3,SPE1
+of the paths.,no closed path,3,REL
+a closed path,which,5,EQUI
+with nothing else,does not contain any other components,5,EQUI
+is,is contained,5,EQUI
+the battery,The battery,5,EQUI
+in a closed path,in a closed path,5,EQUI
+with the battery,with the battery,5,EQUI
+are,are,5,EQUI
+bulbs a and c,Bulbs A and C,5,EQUI
+on a closed path,in closed paths,4,SPE1
+The light bulb,no bulb,4,OPPO
+is not,is,4,OPPO
+in a closed path,in a path,5,EQUI
+in a closed path,in which,5,EQUI
+in different paths,in different paths,5,EQUI
+bulbs a and c,A and C,5,EQUI
+are contained,are,5,EQUI
+with the battery.,with the battery,5,EQUI
+Bulb B and C,Bulb B and Bulb C,5,EQUI
+were contained,were contained,5,EQUI
+in a closed path,in the same closed path,4,SPE2
+with the battery,with the battery.,5,EQUI
+terminal 1 to terminal 6,Terminals 1 and 6,5,EQUI
+is connected,are separated,4,OPPO
+the voltage,different electrical states,3,REL
+in the battery,A battery,5,EQUI
+are,are contained,5,EQUI
+the switch and the bulb,the switch and the bulb,5,EQUI
+in the same path.,in the same path,5,EQUI
+If,When,3,SIMI
+"between the battery""""s",A battery,5,EQUI
+"two terminals""",at the terminals,4,SPE1
+"""the electrical state difference",different electrical states,4,SIMI
+a gap,by the gap,5,EQUI
+between terminal 3 and the positive terminal,Terminal 3 and the positive terminal,5,EQUI
+is,are separated,3,SPE2
+The voltage,different electrical states,3,REL
+the positive battery terminal from terminal 3.,Terminal 3 and the positive terminal,5,EQUI
+by a gap,by the gap,5,EQUI
+is separarted,are separated,5,EQUI
+a gap,no gap,4,OPPO
+in the connection.,between the terminals,3,REL
+there,there,5,EQUI
+is,is,5,EQUI
+a gap,by a gap.,5,EQUI
+the voltage,voltage,5,EQUI
+"between the terminals,",two terminals,4,SPE2
+if,If,5,EQUI
+the bulb,the bulb,5,EQUI
+a path,in the same path,4,SPE2
+is connected,are,3,SIMI
+will be off.,affects,2,REL
+"to an oen switch,",a bulb and a switch,3,SPE2
+"to an oen switch,",the switch,4,SPE1
+a closed path,in a closed path,5,EQUI
+for B and C,bulbs B and C,5,EQUI
+still,still,5,EQUI
+complete paths,in closed paths,5,EQUI
+to the battery,with the battery,5,EQUI
+still,still,5,EQUI
+Bulbs A and C,A and B,4,SIMI
+are contained,are,5,EQUI
+with the battery,with the battery.,5,EQUI
+in closed paths,in a closed path,4,SPE2
+bulb A,Bulb A,5,EQUI
+was,was contained,5,EQUI
+on,in the same closed path with the battery.,3,REL
+are not,are,4,OPPO
+on the same path,in different paths,4,REL
+bulb a and bulb c bulb B,"A, B and C",5,EQUI
+the light bulb and battery,the bulb and the battery,5,EQUI
+Both,the bulb and the battery,5,EQUI
+in a closed path.,in a closed path,5,EQUI
+must be,are,4,SIMI
+of the battery,the battery,5,EQUI
+the positive path,in an open path,3,SIMI
+a closed circuit battery.,in a closed path,4,REL
+voltage,A battery,4,REL
+the terminals,at the terminals,5,EQUI
+a difference in electrical states,different electrical states,4,SIMI
+in the circuit,two terminals,4,REL
+whether,whether,5,EQUI
+electrical states,voltage,3,REL
+will determine,indicates,4,SIMI
+a gap or connection,by a gap.,3,SPE2
+no gap,by the gap,4,OPPO
+between the positive battery terminal and terminal 6,Terminal 6 and the positive terminal,5,EQUI
+is,are not separated,4,OPPO
+When,When,5,EQUI
+is,are contained,5,EQUI
+in the path,in the same path,4,SPE2
+the switch of the bulb.,the switch and the bulb,5,EQUI
+an open switch,the open switch,5,EQUI
+a gap.,a gap,5,EQUI
+creates,creates,5,EQUI
+a complete path,a closed path,5,EQUI
+still,still,5,EQUI
+switch z to the battery,"Switch Z, Switch X, Bulbs A and C and the battery",2,SPE1
+of the gap,by a gap,5,EQUI
+with a battery and bulb,the bulb and a battery,5,EQUI
+A closed path,a closed path,5,EQUI
+with a battery and bulb,containing both,5,EQUI
+Bulb B,Bulb B,5,EQUI
+in a independent path,in a separate path,5,EQUI
+is,is,5,EQUI
+are connected,are connected,5,EQUI
+bulbs,"Terminals 1, 2 and 3",3,REL
+to the negative terminal of the battery,to the negative battery terminal,5,EQUI
+the path,in a circuit,4,REL
+will be damaged,is a gap,3,SPE2
+is separated,are separated,5,EQUI
+the positive terminal from terminal 3,Terminal 3 and the positive terminal,5,EQUI
+by a gap,by the gap,5,EQUI
+creates,creates,5,EQUI
+a break,a gap,5,EQUI
+A switch,the open switch,4,SPE2
+the same voltage,in the same electrical state,3,REL
+terminal 1 and 2,Terminals 1 and 2,5,EQUI
+Switch Y Bulb A,Switch Y and bulb A,5,EQUI
+in a different path,in the same closed path,4,REL
+is,are not,4,OPPO
+The two terminals of a battery,at the terminals,4,SPE1
+a chemical reaction,a chemical reaction,5,EQUI
+due to,uses,3,SIMI
+inside the battery,A battery,5,EQUI
+will always have,to maintain,4,SIMI
+different electrical states,different electrical states,5,EQUI
+by a gap,by a gap,5,EQUI
+from terminal 4,terminal 4,5,EQUI
+the negative batter terminal,from the negative battery terminal,5,EQUI
+is seperated,is separated,5,EQUI
+on the same closed path,a different path,3,REL
+seperate,containing,2,REL
+from bulb a,A,5,EQUI
+bulbs b anc c,B and C,5,EQUI
+are,containing,3,SIMI
+the path between the battery and the light bulb,the path,3,SPE1
+is not closed,is not closed,5,EQUI
+are contained,are,5,EQUI
+in the same path,in different paths,4,REL
+bulb C and A,A and C,5,EQUI
+the terminals,the terminals,5,EQUI
+from not being connected,are not connected,4,SIMI
+the positive batter terminal from terminal 4,Terminal 4 and the positive terminal,5,EQUI
+a gap,by the gap,5,EQUI
+does not have,are not separated,5,EQUI
+on the same path,in the same path,5,EQUI
+are,are,5,EQUI
+as the battery,with the battery,5,EQUI
+bulbs B and C,B and C,5,EQUI
+terminal 1 to terminal 4,Terminals 1 and 4,5,EQUI
+is connetced,are connected,5,EQUI
+in their own closed paths,in closed paths,4,SPE1
+will be,are,4,SIMI
+b and c,bulbs B and C,5,EQUI
+with the battery.,with the battery,5,EQUI
+all the bulbs,A and C,3,SPE2
+on parralel paths,in different paths,3,REL
+are,are,5,EQUI
+are connected,are connected,5,EQUI
+to the positive battery terminal,to the positive battery terminal,5,EQUI
+"terminal 4, terminal 5, and terminal 6","Terminals 4, 5 and 6",5,EQUI
+is,is,5,EQUI
+no path,an incomplete circuit,3,REL
+there,there,5,EQUI
+from terminal 2 to terminal 6,Terminals 1 and 2,3,SIMI
+a gap,in the same electrical state,2,REL
+the same difference in electrical states,in the same electrical state,3,SIMI
+terminal 1 and 2,Terminals 1 and 2,5,EQUI
+to the negative battery terminal,to the negative battery terminal,5,EQUI
+terminal one,terminal 1,5,EQUI
+is connected,is connected,5,EQUI
+Bulb A,bulb A,5,EQUI
+bulbs B and C.,B and C,5,EQUI
+is not,are no longer,5,EQUI
+in the same path,in a closed path,4,SPE1
+the switch between the bulb and the battery.,the switch and the bulb,3,SPE2
+If,When,3,SIMI
+a gap,in the same path,2,REL
+the switch with the Bulb,the switch and the bulb,5,EQUI
+is contained,are contained,5,EQUI
+in the same path,in the same path,5,EQUI
+If,When,3,SIMI
+is,is,5,EQUI
+no gap,no gap,5,EQUI
+between the positive battery terminal and terminal 5,between terminal 5 and the positive terminal,5,EQUI
+there,There,5,EQUI
+are not connected,are not connected,5,EQUI
+the terminals,the terminals,5,EQUI
+between the bulb and the battery.,the bulb and a battery,5,EQUI
+Closed connection,a closed path,4,REL
+between the bulb and the battery.,both,5,EQUI
+within a closed path,in the same path,4,SPE2
+has to be,have to be,5,EQUI
+the switch with the bulb and battery,The switch and the bulb,3,SPE2
+terminal 6 to the positive terminal.,Terminal 6 and the positive terminal,5,EQUI
+is connected,are connected,5,EQUI
+in a closed path,in a closed path,5,EQUI
+with a battery.,with the battery.,5,EQUI
+Bulb a,Bulb A,5,EQUI
+was,is contained,4,SIMI
+the positive battery terminal to terminal 4.,Terminal 4 and the positive terminal,5,EQUI
+is connected,are connected,5,EQUI
+for bulb A,Bulb A,5,EQUI
+the closed path,in a closed path,5,EQUI
+existed,is contained,4,SIMI
+still,still,5,EQUI
+is connected,are connected,5,EQUI
+terminal 4 to the positive batterty terminal,Terminal 4 and the positive terminal,4,EQUI
+if,If,5,EQUI
+the path,in the same path,4,SPE2
+the attery,The battery,5,EQUI
+is not,is not,5,EQUI
+in a closed path,in a closed path,5,EQUI
+in a closed path,in the same closed path,4,SPE2
+bulbs B and C,Bulb B and Bulb C,5,EQUI
+with the battery.,with the battery.,5,EQUI
+were,were contained,5,EQUI
+still,still,5,EQUI
+When,When,5,EQUI
+in the same path,in the same path,5,EQUI
+the switch the bulb.,the switch and the bulb,5,EQUI
+is,are contained,5,EQUI
+the path is not closed.,is no closed path,5,EQUI
+Terminal 5 to the postive battery terminal,Terminal 5 and the positive terminal,5,EQUI
+is connected,are connected,5,EQUI
+because of the gap,are not connected,4,REL
+is,are,5,EQUI
+bulb B and C,bulbs B and C,5,EQUI
+still,still,5,EQUI
+with the battery.,with the battery,5,EQUI
+a closed path,in closed paths,4,SPE1
+battery,The battery,5,EQUI
+in bulb,in a path,2,REL
+is contained,is contained,5,EQUI
+there,there,5,EQUI
+a closed circuit.,a complete circuit,5,EQUI
+must be,is,4,SIMI
+are,are,5,EQUI
+to the battery,with the battery,5,EQUI
+b and c,bulbs B and C,5,EQUI
+of complete circuts,in closed paths,4,REL
+in a closed path,a closed path,5,EQUI
+a positive and negative connections,are not connected,3,REL
+a damaged bulb,a damaged bulb,5,EQUI
+creates,creates,5,EQUI
+a gap,a gap,5,EQUI
+causes,creates,5,EQUI
+an open switch,the open switch,5,EQUI
+a gap.,a gap,5,EQUI
+there,There,5,EQUI
+by the switch,switch Y and bulb A,2,SPE2
+a closed path,no path,4,OPPO
+by the switch,both,2,SPE2
+not effected,containing,2,SIMI
+was,is,4,SIMI
+is contained,must be contained,4,SIMI
+the other bulb,The damaged bulb and the other bulb,3,SPE1
+in a closed path,in the same path,4,SPE2
+A closed path,in the same path,4,SPE2
+the bulb,the bulb,4,EQUI
+enables to be on.,affects,2,SIMI
+is,is contained,5,EQUI
+the battery,the battery,5,EQUI
+in a closed path.,in a path,5,EQUI
+are contained,are,5,EQUI
+in the same path,in a closed path,4,SPE1
+the switch and the bulb,bulbs B and C,2,SPE2
+closed paths,in a closed path,4,SPE2
+from the battery,the bulb and the battery,3,SPE1
+are contained,are,5,EQUI
+Bulb A and C,A and C,5,EQUI
+in different paths,in different paths,5,EQUI
+with the battery.,with the battery,5,EQUI
+between the bul and battery terminal.,between the terminals,3,SPE2
+is,is,5,EQUI
+there,there,5,EQUI
+a gap,no gap,4,OPPO
+is a gap,are connected,4,OPPO
+from the positive battery terminal,in the same electrical state,3,REL
+between terminals 1 and 2,Terminals 1 and 2,5,EQUI
+Terminal 6 to the posititve battery terminal.,Terminal 6 and the positive terminal,5,EQUI
+is connected,are connected,5,EQUI
+in the path,in a path,5,EQUI
+in the path,in which,5,EQUI
+with no lightbulb,no bulb,5,EQUI
+no gap,no gap,5,EQUI
+there,There,5,EQUI
+is,is,5,EQUI
+between terminal 4 and the positive terminal,between terminal 4 and the positive terminal,5,EQUI
+is contain,was contained,4,SIMI
+Bulb A,Bulb A,5,EQUI
+in a closed path,in the same closed path,4,SPE2
+is,containing,4,SIMI
+within its own closed path,a path,3,SPE1
+of B and C,containing B and C,5,EQUI
+Bulb A,A,5,EQUI
+independent,a different path,4,SIMI
+Terminal 1 to terminal 2,Terminals 1 and 4,4,SIMI
+is connected,are connected,5,EQUI
+by a gap,by the gap,5,EQUI
+are seperated,are separated,5,EQUI
+the positive terminal and terminal 1,Terminal 1 and the positive terminal,5,EQUI
+is,are,5,EQUI
+still,still,5,EQUI
+a closed path,in closed paths,4,SPE1
+"the battery, Bulb B, and Bulb C.",bulbs B and C with the battery,5,EQUI
+had no gap.,are separated by the gap,4,OPPO
+terminal 1,Terminal 1 and the positive terminal,3,SPE1
+Terminal 5 and the positive battery terminal,Terminal 5 and the positive terminal,5,EQUI
+are in the same state.,are connected,4,REL
+to the negative terminal,Terminals 1 and 2,3,REL
+connected,are connected,5,EQUI
+is not,is,4,OPPO
+a complete path,no closed path,4,OPPO
+there,there,5,EQUI
+both battery terminals,the battery,4,SPE1
+involving,containing,5,EQUI
+no gap in the circuit.,in a closed path,5,EQUI
+terminal 5 to the positive battery terminal.,Terminal 5 and the positive terminal,5,EQUI
+is connected,are connected,5,EQUI
+its own chemical reacion,a chemical reaction,4,SPE1
+between the positive and negative tterminals,at the terminals,3,SPE1
+the battery,A battery,5,EQUI
+has,uses,4,SIMI
+are,are,5,EQUI
+bulbs by switches,a bulb and a switch,4,SPE2
+bulbs by switches,the switch the bulb,4,SPE2
+will be affected,affects,4,SIMI
+in the path,in the same path,4,SPE2
+is contained,must be contained,4,SIMI
+the damaged lightbulb,The damaged bulb and the other bulb,4,SPE1
+in the closed circuit,in the same path,4,REL
+The bulb and the battery,the battery,3,SPE2
+is connected,are connected,5,EQUI
+terminal 6 to a positive battery terminal,Terminal 6 and the positive terminal,5,EQUI
+still,still,5,EQUI
+a connection,in closed paths,4,REL
+have,are,2,SIMI
+A and C,Bulbs A and C,5,EQUI
+to the battery,with the battery,5,EQUI
+between the terminals,terminal 1 from the negative battery terminal,3,SPE2
+is no gap,is not separated,5,EQUI
+of the terminals.,Terminal 1 and the positive terminal,3,SPE2
+between the electrical state,by the gap,2,REL
+Bulb A and Bulb C,A and C,5,EQUI
+are contained,are,5,EQUI
+with the battery.,with the battery,5,EQUI
+in different paths,in different paths,5,EQUI
+between the two terminals,at the terminals,4,SPE1
+a difference in electrial states,different electrical states,4,SIMI
+Terminal 5 to the positive battery terminal.,Terminal 5 and the positive terminal,5,EQUI
+is connected,are connected,5,EQUI
+the positive battery terminal from terminal 1,Terminal 1 and the positive terminal,5,EQUI
+separates,are separated,5,EQUI
+the gap,by the gap,5,EQUI
+the path,in its own path,3,SPE2
+the energy flow,the path,4,REL
+on a cloosed battery,in a closed path with the battery.,5,EQUI
+A,Bulb A,5,EQUI
+is,is contained,5,EQUI
+a battery,A battery,5,EQUI
+a voltage,different electrical states,3,REL
+an open path,in an open path,5,EQUI
+is,is,5,EQUI
+on the same path,in the same path,5,EQUI
+are,are,5,EQUI
+the bulbs,A and C,3,SPE2
+is contained,are,5,EQUI
+still,still,5,EQUI
+"Through bulb A, bulb B",A and B,5,EQUI
+to the battery.,with the battery,5,EQUI
+in a closed path,in a closed path,5,EQUI

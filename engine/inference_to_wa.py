@@ -3,8 +3,19 @@
 import logging
 import torch
 import re
-def format_to_wa(cfg, model):
 
+
+def format_to_wa(cfg, model):
+    """
+    Formats the input data and performs inference using the given model to create .wa files.
+
+    Args:
+        cfg (object): Configuration object containing settings for the inference process.
+        model (object): Pre-trained model used for inference.
+
+    Returns:
+        None
+    """
     alignment_start_pattern = re.compile(r"<alignment>")
     alignment_end_pattern = re.compile(r"</alignment>")
     equality_pattern = re.compile(r"<==>")
@@ -20,7 +31,7 @@ def format_to_wa(cfg, model):
     file_name = cfg.OUTPUT_DIR + "/" + cfg.DATASETS.TEST_WA[14:-4] + "_predicted.wa"
     with open(cfg.DATASETS.TEST_WA, 'rb') as fin:
         fin.readline()
-        for index, line in enumerate(fin):
+        for _, line in enumerate(fin):
             processed_line = []
             line = line.decode('latin-1')
             if alignment_end_pattern.match(line):
@@ -52,8 +63,6 @@ def format_to_wa(cfg, model):
 
             if alignment_start_pattern.match(line):
                 aligment_section = True
-
-
 
    
     with open(file_name, "w", newline='', encoding="utf-8") as f:

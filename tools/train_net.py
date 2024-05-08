@@ -13,29 +13,44 @@ from data import make_data_loader
 from engine.trainer import do_train
 from modeling import build_model
 from solver import make_optimizer
-
-from utils.logger import setup_logger
+import logging
 
 
 def train(cfg):
+    """
+    Trains the model using the provided configuration.
+
+    Args:
+        cfg (Config): The configuration object containing the training settings.
+
+    Returns:
+        None
+    """
     model = build_model(cfg)
-    device = cfg.MODEL.DEVICE
-
     optimizer = make_optimizer(cfg, model)
-
-
-    train_loader = make_data_loader(cfg, csv = cfg.DATASETS.TRAIN, is_train=True)
-
+    train_loader = make_data_loader(cfg, csv=cfg.DATASETS.TRAIN, is_train=True)
     do_train(
         cfg,
         model,
         train_loader,
         optimizer,
-        losses = [F.mse_loss, F.nll_loss],
+        losses=[F.mse_loss, F.nll_loss],
     )
 
 
 def main():
+    """
+    Main function for training RoBERTa model for iSTS task.
+
+    This function parses command-line arguments, merges configuration options,
+    sets up logging, and starts the training process.
+
+    Args:
+        None
+
+    Returns:
+        None
+    """
     parser = argparse.ArgumentParser(description="PyTorch training RoBERTa model for iSTS task")
     parser.add_argument(
         "--config_file", default="", help="path to config file", type=str
@@ -56,7 +71,7 @@ def main():
     if output_dir and not os.path.exists(output_dir):
         mkdir(output_dir)
 
-    logger = setup_logger("model", output_dir, 0)
+    logger = logging.getLogger("train_net")
     logger.info("Using {} GPUS".format(num_gpus))
     logger.info(args)
     logger.propagate = False

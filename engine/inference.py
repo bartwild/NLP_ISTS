@@ -4,6 +4,17 @@ from sklearn.metrics import f1_score
 import torch
 
 def inference(cfg, model, val_loader):
+    """
+    Perform inference on the given validation data using the provided model.
+
+    Args:
+        cfg (Config): The configuration object containing model and inference settings.
+        model (torch.nn.Module): The model to be used for inference.
+        val_loader (torch.utils.data.DataLoader): The data loader for the validation data.
+
+    Returns:
+        None
+    """
     device_type = cfg.MODEL.DEVICE
     device = torch.device(device_type)
     log_period = cfg.SOLVER.LOG_PERIOD

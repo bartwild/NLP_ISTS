@@ -1,0 +1,970 @@
+chunk1,chunk2,value,explanation
+standing,is,5,EQUI
+on tree branches,on tree branches,5,EQUI
+A cat,A black and white cat,4,SPE2
+A large boat,A large boat,5,EQUI
+in the water,on the sea,4,SPE2
+A passenger train,A passenger train,5,EQUI
+waiting,sits,4,SIMI
+in a station,in the station,5,EQUI
+on the floor,on the floor,5,EQUI
+sitting,sitting,5,EQUI
+An Apple computer,A Macintosh computer,5,EQUI
+A jockey,A jockey,5,EQUI
+a horse,a horse,5,EQUI
+riding,riding,5,EQUI
+A woman,A young girl,4,SIMI
+a brown horse,a brown horse,5,EQUI
+riding,riding,5,EQUI
+sleeps,asleep,5,EQUI
+A man,A man,5,EQUI
+with a baby,holding a baby,4,SPE2
+in front of yellow flowers,in a field,2,SIMI
+standing,standing,5,EQUI
+A black dog,A black dog,5,EQUI
+in afield,in a field,5,EQUI
+standing,grazing,3,SPE2
+sheep,A sheep,5,EQUI
+standing,stands,5,EQUI
+A dark brown horse,A brown horse,4,SPE1
+in a field,in a lush green field,3,SPE2
+with food,with food and beer,4,SPE2
+of people,of people,5,EQUI
+around a table,around a table,5,EQUI
+A group,A group,5,EQUI
+sitting,sit,5,EQUI
+A brown horse,A brown horse,5,EQUI
+in a lush green field,in a green field,4,SPE1
+with two cats,with two cats,5,EQUI
+at her feet,at her feet,5,EQUI
+in a kitchen,in the kitchen,5,EQUI
+stands,is standing,5,EQUI
+An elderly woman,The old lady,5,EQUI
+Red double decker bus,Double decker passenger bus,4,SPE1
+through the streets,with traffic,3,REL
+driving,driving,5,EQUI
+in a cluttered room,in a cluttered room,5,EQUI
+sitting,lies,4,SIMI
+A man,A man,5,EQUI
+walking,walking,5,EQUI
+under trees,under the tree,4,SIMI
+Black cow,Cow,4,SPE1
+in pasture,in a pasture,5,EQUI
+A smiling woman,Two women,3,SIMI
+with another smiling woman,laughing,2,REL
+sitting,sitting,5,EQUI
+outside,outside,5,EQUI
+with a big necklace,with a black top and a necklace,3,SPE2
+a woman,A young woman,4,SPE2
+in grass,in a grassy area,5,EQUI
+standing,standing,5,EQUI
+Brown and white cow,A brown and white cow,5,EQUI
+a horse,a horse,5,EQUI
+riding,rides,5,EQUI
+A jockey,A jockey,5,EQUI
+rides,rides,5,EQUI
+A person,A person,5,EQUI
+a bike,a bike,5,EQUI
+a helmet,a bike helmet,5,EQUI
+wearing,wearing,5,EQUI
+of horses,of horses,5,EQUI
+grazing,grazing,5,EQUI
+Group,A group,5,EQUI
+in grassy field,in a field,4,SPE1
+a helmet,a bike helmet,5,EQUI
+A young blonde girl,A young girl,4,SPE1
+behind her,in the background,5,EQUI
+with a red bicycle,with a bicycle,4,SPE1
+wearing,wearing,5,EQUI
+A striped cat,Domestic cat,3,SIMI
+laying down,laying,5,EQUI
+of cat litter,of cat litter,5,EQUI
+Five birds,Several cardinals,3,SIMI
+on the snow,in the snow,5,EQUI
+stand,stand,5,EQUI
+posing,is standing,4,SPE1
+by a pillar,by a pillar,5,EQUI
+A woman,a woman,5,EQUI
+with a U2 sign,where `` u2 '' is written,5,EQUI
+A red moped,The red scooter,4,SPE2
+parked,is sitting,4,SIMI
+on a sidewalk,on the street,4,SPE1
+in front of graffiti,in front of the building,3,REL
+on couch,on a couch,5,EQUI
+Two dogs and one cat,Two dogs and a cat,5,EQUI
+sitting,resting,4,SIMI
+with their thumbs up,the thumbs up sign,5,EQUI
+One Asian and one occasion woman,Two women,2,SPE1
+smiling,are posing,3,REL
+in front of an alpine lake,"next to a mountain , and a body",4,SIMI
+grazing,grazing,5,EQUI
+Two mountain goats,Two animals,1,SPE1
+in a station,at the city train station,4,SPE2
+waiting,waiting,5,EQUI
+A passenger train,A passenger train,5,EQUI
+A bicycle,A bicycle,5,EQUI
+is parked,is parked,5,EQUI
+by a shop,outside a bookstore,4,SPE2
+in a black leather chair,on a leather chair,4,SPE1
+A orange and white cat,A ginger and white cat,4,SPE2
+laying,asleep,4,SIMI
+on train tracks,on the train tracks,5,EQUI
+Black train,A train,4,SPE1
+on a black couch,on couch,4,SPE1
+Young couple,Young couple,5,EQUI
+sitting,sitting,5,EQUI
+on a couch,on couch,5,EQUI
+A couple,Young couple,4,SPE2
+posing,sitting,3,REL
+Red double decker bus,Red double decker bus,5,EQUI
+A group,A group,5,EQUI
+sitting,sitting,5,EQUI
+at a restaurant table,around a table,4,SPE1
+of people,of people,5,EQUI
+napping,sleeping,4,SIMI
+under a small table,under a table,4,SPE1
+a dog,A dog,5,EQUI
+on water,on the water,5,EQUI
+A boat,Sail boat,4,SPE2
+is sailing,sailing,5,EQUI
+a small baby,a baby,4,SPE1
+holding,holding,5,EQUI
+A smiling woman,Two smiling women,4,SIMI
+Red double decker bus,A red double decker bus,5,EQUI
+of street,on a city street,4,SPE2
+the window,of a window,5,EQUI
+looking out,looking out,5,EQUI
+Gray cat,A cat,4,SPE1
+on the tracks,on the train track,4,SIMI
+sitting,are sitting,5,EQUI
+Two green and white trains,Two green and white trains,5,EQUI
+the camera,the camera,5,EQUI
+A cat,"A gray , black , and white cat",3,SPE2
+looking at,looking at,5,EQUI
+A gray cat,A gray cat,5,EQUI
+on a wooden table,on a dining table,4,SIMI
+lying,laying,5,EQUI
+in a chair,on chair,5,EQUI
+with a baby,with infant,5,EQUI
+A father,Man,3,SPE1
+napping,sleeping,4,SIMI
+on tree branch,on a tree branch,5,EQUI
+perched,perched,5,EQUI
+Green and white bird,Bird,4,SPE2
+A red and white plane,Red and white plane,5,EQUI
+flying,flying,5,EQUI
+with a viking hat,a viking hat,5,EQUI
+a woman,Smiling woman,4,SPE2
+on,wearing,4,SIMI
+standing,stands,5,EQUI
+underneath a chair,on the floor,4,SPE1
+A small white cat,A white cat,4,SPE1
+at a table,around a table,5,EQUI
+of people,of elderly people,4,SPE2
+A group,Group,5,EQUI
+eat,sitting,3,REL
+standing,stands,5,EQUI
+A bull,A brown horse,2,SIMI
+in the field,in a lush green field,2,SPE2
+jumping,playing,4,REL
+at a table,around a dining table,2,SPE2
+A group,A group,5,EQUI
+of people,of elderly people,4,SPE2
+are looking at,looking out,4,SIMI
+Two cats,A white cat,2,SIMI
+a window,of a window,5,EQUI
+in the background,in the background,5,EQUI
+with a horse,with other lambs,2,SIMI
+perched,is perched,5,EQUI
+A small red and gray bird,A red and brown bird,3,SIMI
+amongst the bare branches,on branches,3,SPE1
+on a rural road,along a dirt road,2,SIMI
+is driving,driving,5,EQUI
+Three young women,Two Indian women,2,SIMI
+in a field,in a field,5,EQUI
+of sheep,of horses,2,SIMI
+A group,A group,5,EQUI
+in a green pasture,in the pasture,4,SPE1
+Two white cows,The tan horse,1,SIMI
+at a table,at a table,5,EQUI
+Two people,four people,4,SIMI
+sitting,sitting,5,EQUI
+A women,A man and two women,2,SPE2
+sitting,sitting,5,EQUI
+on a sofa,on a blue sofa,4,SIMI
+Black and white cat,The black and white cat,5,EQUI
+lying,lounges,3,SIMI
+under bush,in the dirt,1,REL
+at the camera,at the camera,5,EQUI
+is looking,looking,5,EQUI
+The lamb,A cat,2,SIMI
+A black and white photo,A black and white photo,5,EQUI
+A black and white cat,Black and white lamb,2,SIMI
+posing,are posing,5,EQUI
+for the camera,for the camera,5,EQUI
+A man and small child,A man and woman,3,SIMI
+A black vehicle,A black car,4,SPE2
+parked,parked,5,EQUI
+The black and white bull,A black and white dog,2,SIMI
+at the camera,at the camera,5,EQUI
+is looking,looking,5,EQUI
+in the background,in the background,5,EQUI
+of sheep,A white cat,1,SIMI
+beside the road,in the field,1,SIMI
+are grazing,grazing,5,EQUI
+Five cows,Several sheep,2,SIMI
+in a living room,in a dining room,4,SIMI
+A silver bicycle,A bicycle,4,SPE1
+sleeping,sitting,3,REL
+on the sofa,on a green couch,4,SPE2
+The men,a young boy,2,SIMI
+sits,relaxes,3,SIMI
+A brown and white dog,A small orange and white dog,3,SPE2
+on a floral-patterned chair,on a flower print pillow,2,SIMI
+looking,looking,5,EQUI
+Two sheep,Two sheep,5,EQUI
+at the camera,at the camera,5,EQUI
+in a field,in a field,5,EQUI
+in the background,in the background,5,EQUI
+laying,lying,5,EQUI
+at the camera,at the camera,5,EQUI
+A cat,A tan dog,3,SIMI
+looking,looking up,4,SPE2
+on a red cushion,on a moggie bed,4,SPE1
+a boat,on a boat,5,EQUI
+near the shore,on green water,2,SIMI
+Four people,four people,5,EQUI
+are rowing,are,3,SPE1
+in the sky,in the sky,5,EQUI
+Two airplanes,A plane,3,SIMI
+in front of the laundry room,with tan walls and a washer and dryer,4,SIMI
+on the porch,on acouch,2,REL
+People,People,5,EQUI
+sitting,sitting,5,EQUI
+sitting,riding,2,SIMI
+A man,A man,5,EQUI
+near two tiny animals,near her children,3,SIMI
+stands,standing,5,EQUI
+A lamb,A sheep,4,SIMI
+on a grassy field,on a green hill,3,SIMI
+Tan cow,Many sheep,2,SIMI
+in front of some ruins,in front of a building,4,REL
+A bicycle,A pink bicycle,4,SPE2
+of black faced sheep,A black faced sheep,5,EQUI
+walking,flying,1,SIMI
+standing,standing,5,EQUI
+in a grassy field,in a grassy field,5,EQUI
+A black and white cow,A blue jay,1,SIMI
+sitting,sitting,2,SIMI
+A young woman,Two young kids,2,SIMI
+dressed,dressed up,4,SPE2
+on side,on a crowded street,3,SPE2
+Red double decker bus,A red double decker bus,5,EQUI
+A bus,A green bus,4,SPE2
+drives down,drives down,5,EQUI
+a busy road,a road,4,SPE1
+A young woman,A women,4,SPE1
+is wearing,wearing,5,EQUI
+a bikini top and jeans,a bikini top and jeans,5,EQUI
+A yellow and blue airplane,The white airplane,3,SIMI
+is flying,is flying,5,EQUI
+in the sky,in the blue sky,4,SPE2
+near the water,on a beach,3,SPE2
+with two Indian girls,with two Indian girls,5,EQUI
+Two Indian women,Two Indian woman,5,EQUI
+A living room,A living room,5,EQUI
+in the background,in the background,5,EQUI
+with a dining table,with large sofas and a dining table,3,SPE2
+with trees,with trees,5,EQUI
+paddling,padding,5,EQUI
+Two people,Two people,5,EQUI
+in the background,in the background,5,EQUI
+in a red canoe,in a yellow canoe,4,SIMI
+at sunset,near the sunset,4,SIMI
+Plane,A plane,5,EQUI
+in mid-flight,flying,4,SIMI
+to the side,to the side,5,EQUI
+A yellow parrot,A yellow and orange bird,4,SIMI
+of its cage,of a cage,5,EQUI
+clings,hold on,5,EQUI
+sailing,sailing,5,EQUI
+in a small sailboat,in a small sailboat,5,EQUI
+Couple,Two men,4,SPE2
+Red double decker bus,"A red , double-decker bus",5,EQUI
+A close-up,Close up image,5,EQUI
+with its tongue,with it 's tongue,5,EQUI
+hanging out,hanging out,5,EQUI
+of a sheep,of a sheep,5,EQUI
+sitting,perched,4,SIMI
+on a branch,on an icy branch,4,SPE2
+a small bird,A small bird,5,EQUI
+stand,walking,2,SIMI
+A brown duck and white duck,Brown and white ducks,4,SPE1
+on the grass,on green grass,4,SPE2
+Cows,Five cows,4,SPE2
+grazing,grazing,5,EQUI
+in a snow covered field,in a snow covered field,5,EQUI
+with blue shirt,in a blue shirt and tan pants,3,SPE2
+in front of a fountain,in front of a statue,3,SIMI
+standing,is standing,5,EQUI
+Man,A man,5,EQUI
+on the floor,on on the floor,5,EQUI
+Several televisions,Three televisions,4,SPE2
+in front of a bookcase,in front of book shelves,5,EQUI
+A clear plastic chair,a clear plastic chair,5,EQUI
+stands,standing,5,EQUI
+A sheep,A large sheep,4,SPE2
+on a hillside,on a hill,4,SIMI
+Blue and red plane,a blue and red airplane,5,EQUI
+in mid-air flight,while in flight,5,EQUI
+on the floor,on the floor,5,EQUI
+A flat screen TV,A flat-screen TV,5,EQUI
+with several computer monitors,with four computer monitors,4,SPE2
+Room,A room,5,EQUI
+of a stop sign,of a sign,4,SPE1
+on it,on,5,EQUI
+the back,The back,5,EQUI
+with many stickers,with stickers,4,SPE1
+Living room or den,Living room,4,SPE1
+with large screen television,with tan furniture and flat screen television,3,SPE2
+driving down,driving down,5,EQUI
+A doubly decker red bus,A red double decker bus,5,EQUI
+the road,a street,4,SPE2
+for camera,for the camera,5,EQUI
+stand,are posing,4,SIMI
+A man and woman,A man and woman,5,EQUI
+A white bird,Large white bird,4,SPE2
+with long orange legs,with long orange beak,3,SIMI
+by a lake,on the shoreline,4,SPE1
+standing,standing,5,EQUI
+driving,is riding,4,SIMI
+through a snow covered city,in the snow,3,SPE1
+A red train,The train,4,SPE1
+on the runway,on a runway,5,EQUI
+sits,parked,4,SIMI
+A Das Air Cargo plane,A passenger plane,4,SPE1
+on purple sheet,on a purple blanket,4,SIMI
+A cat,A black and white cat,3,SPE2
+sleeps,sleeps,5,EQUI
+an England street,the street,4,SPE1
+A red and white bus,A red and white England bus,4,SPE2
+drives down,drives down,5,EQUI
+a jockey,A jockey,5,EQUI
+riding,riding,5,EQUI
+a horse,a horse,5,EQUI
+A kitchen,A kitchen,5,EQUI
+with wood cabinets and dining table,with wooden cabinets and furniture,4,SPE1
+of a cityscape,of a city,5,EQUI
+with a graffiti scene,by a mural,4,SIMI
+A motorcycles,A motorcycle,5,EQUI
+is parked,is parked,5,EQUI
+in the water,in the water,5,EQUI
+A bird,A large black bird,3,SPE2
+in a fenced area,in a gated yard,4,SIMI
+pets,pets,5,EQUI
+a dog,a dog,5,EQUI
+A woman,A woman,5,EQUI
+reclines,sitting,4,SIMI
+on an office chair,on an office chair,5,EQUI
+A cat,A ginger cat,4,SPE2
+sits,is,5,EQUI
+at the train station,at the station,5,EQUI
+The train,The blue train,4,SPE2
+of horses,of horses,5,EQUI
+A group,Group,5,EQUI
+grazing,grazing,5,EQUI
+in a field,in grassy field,4,SPE2
+on an icy branch,on a branch,4,SPE1
+A small bird,A yellow bird,4,SIMI
+perched,perched,5,EQUI
+Boy,A boy,5,EQUI
+typing,looking,2,REL
+on a computer,at a computer screen,3,SIMI
+their tires,tires,5,EQUI
+spins,spinning,5,EQUI
+A red truck,Red truck,5,EQUI
+Four blue and yellow planes,Four blue and yellow planes,5,EQUI
+flying,in flight,5,EQUI
+A train,A train,5,EQUI
+is,parked,5,EQUI
+at a train station,at a train station,5,EQUI
+through water,towards a the shore,3,SPE2
+in yellow canoe,a yellow canoe,5,EQUI
+Man,Man,5,EQUI
+paddling,paddling,5,EQUI
+on the floor,on the floor,5,EQUI
+Beer bottles -LRB- -LRB- Harp Lager -RRB- -RRB-,A row,4,SPE1
+giving,giving,5,EQUI
+the thumbs up sign,the thumbs up sign,5,EQUI
+Two women,Two smiling young women,3,SPE2
+on a city street,the road,4,SPE1
+A double decker red United bus,A doubly decker red bus,4,SPE1
+at table,at a table,5,EQUI
+of restaurant,at a restaurant,5,EQUI
+Group,Two people,4,SIMI
+sitting,sitting,5,EQUI
+drinking,are drinking,5,EQUI
+Two dairy cows,Two cows,4,SPE1
+from a pond,from a pond,5,EQUI
+in an urban setting,in a fenced area,1,SIMI
+ride,riding,3,SIMI
+People,People,5,EQUI
+standing,talking,2,REL
+Two women,Two men,3,SIMI
+in front of tour bus,in front of a plane,2,SIMI
+Large silver locomotive engine,The silver train,4,SPE1
+in a shed,in a station,3,SIMI
+is parked,stand,2,SIMI
+outside a bookstore,outside a bookstore,5,EQUI
+standing,standing,3,SIMI
+in background,in the background,5,EQUI
+is eating,eating,5,EQUI
+fruit,fruit,5,EQUI
+on a wire grate,on a bird feeder,3,SPE2
+A yellow bird,A yellow bird,5,EQUI
+on the tracks,down the tracks,5,EQUI
+sitting,traveling,2,SIMI
+A train,A train,5,EQUI
+sits,standing,2,SIMI
+A man,A woman,3,SIMI
+a white horse,a brown horse,4,SIMI
+riding,riding,5,EQUI
+is standing,hold on,2,SIMI
+riding,riding,5,EQUI
+a brown horse,a brown horse,5,EQUI
+A girl,The jockey,3,SPE2
+A man,The man,5,EQUI
+sitting,is standing,2,SIMI
+on the grass,on the sidewalk,2,SIMI
+standing,standing,5,EQUI
+A white cat,A sheep,2,SIMI
+on a street,on the street,5,EQUI
+A passenger jet,A large passenger jet,4,SPE2
+on a runway,close to the ground,2,SPE1
+sits,flying,2,REL
+on a table,at a table,5,EQUI
+sitting,sitting,3,SIMI
+A white cat,A pretty white striped cat,3,SPE2
+on a carpet,the table,1,SIMI
+in front of an apartment building,in front of building,4,SPE1
+on the ground,under a tree,2,SPE2
+The black bird,with a cow,1,SIMI
+of a cat,of a horse,2,SIMI
+A close-up,A close-up,5,EQUI
+are swimming,fly,2,SIMI
+The birds,Birds,5,EQUI
+in the water,over water,2,SIMI
+on a crowded street,on a public street,4,SPE1
+A red double decker bus,A white bus,3,SIMI
+in a field,in a field,4,SPE2
+grazing,grazing,5,EQUI
+A group,A brown horse,3,SPE2
+near a field,in the grass,3,SIMI
+sitting,is sitting,4,SIMI
+Two women,Two women,5,EQUI
+in the kitchen,in kitchen,5,EQUI
+toward the camera,towards the camera,5,EQUI
+moving,flying,2,SIMI
+"with table , chair and sofa","with a blue sofa , camp bed , wooden bench and dresser",1,SPE2
+A living room,A living room,5,EQUI
+in the background,in the background,5,EQUI
+A steam engine,A train,4,SIMI
+a train track,at a train station,3,REL
+sitting,sitting,4,SIMI
+Two women,Two women,5,EQUI
+outside,outside,3,SPE2
+sitting,standing,2,SIMI
+toward the camera,at the camera,5,EQUI
+The bird,The sheep,1,SIMI
+on the branch,under the trees,2,SIMI
+is sitting,is standing,3,SIMI
+looking,is looking up,4,SPE2
+A brown and white cow,The black and white cat,2,SIMI
+into the camera,at the camera,5,EQUI
+along the beach,'s shore,4,SIMI
+walking,walk,5,EQUI
+A man and a woman,A man,2,SIMI
+A black and white dog,A small black and white goat,2,SIMI
+at the camera,at the camera,5,EQUI
+looking,looking up,4,SPE2
+Red double decker bus,A red double decker bus,5,EQUI
+A young boy,A young blonde girl,3,SPE2
+A group,A group,5,EQUI
+of people,of four people,4,SPE2
+The cat,Than horse,2,SIMI
+in front of a door,in front of a fence,3,SIMI
+is sitting,standing,2,SIMI
+A man,A runner,2,SPE2
+in a riding hat,riding,3,REL
+on a horse,a brown horse,4,SPE2
+A girl,A girl,5,EQUI
+A group,A group,5,EQUI
+of peoples,of cyclists,2,SPE2
+A car,A silver car,4,SPE2
+of the road,of the road,5,EQUI
+the side,on the side,5,EQUI
+is lying,lies,5,EQUI
+The black dog,A black dog,5,EQUI
+in the grass,on the grass,5,EQUI
+Large white cruise ship,Large cruise ship,4,SPE1
+floating,floating,5,EQUI
+on water,on the water,5,EQUI
+with a motorcycle,with a classic motorcycle,4,SPE2
+a car,in a classic car,4,SPE2
+A black and white photo,A black and white photo,5,EQUI
+of a man,of a man,5,EQUI
+someone,a man,3,SPE2
+on the gloved hand,'s gloved hand,5,EQUI
+of a person,on a person,5,EQUI
+perches,is perched,5,EQUI
+A blue bird,A bird,4,SPE1
+riding on,riding,5,EQUI
+a brown and white horse,a brown horse,4,SPE1
+A girl,A girl,5,EQUI
+in a riding hat,riding,3,REL
+A girl,A girl,5,EQUI
+on a horse,a tan horse,4,SPE2
+is sitting,is perched,5,EQUI
+The bird,A red and brown bird,3,SPE2
+on the branch,on branches,4,SIMI
+at a black sheep,at a brown sheep,4,SIMI
+looks,looking,5,EQUI
+A black and tan dog,A black dog,4,SPE1
+jumping,jumping,5,EQUI
+a man,A man,5,EQUI
+very high,with the sky,2,REL
+on a dirt bike,on a motorbike,4,SPE1
+The man,A man,5,EQUI
+at a messy table,on a messy table,5,EQUI
+a laptop,a laptop computer,5,EQUI
+is sitting,sits,5,EQUI
+Four children,Children,4,SPE1
+at barn animals,a sheep,2,SPE2
+looking,looking,5,EQUI
+is standing,standing,5,EQUI
+next to a car,next to a small red vehicle,3,SPE2
+A scantily clad woman,A scantily clad woman,5,EQUI
+A red and blue plane,A WWII fighter plane,3,SIMI
+down,down,5,EQUI
+with its landing gears,with its landing gear,5,EQUI
+in a restaurant,in an Italian restaurant,4,SPE2
+Four women and two men,A group,4,SPE1
+at a long table,at a table,4,SPE1
+sit,sit,5,EQUI
+with a blue halter,a blue halter,5,EQUI
+Close up,A close up,5,EQUI
+of a brown horse,of a horse,4,SPE1
+in a rural area,in a field,4,SPE2
+A yellow school bus,A yellow school bus,5,EQUI
+is parked,parked,5,EQUI
+A sheep,Woolly sheep,4,SPE2
+at auction,at auction house,4,SPE2
+a train,The train,5,EQUI
+on his tracks,the track,5,EQUI
+rides,comes down,3,SPE2
+on a city street,on a city street,5,EQUI
+A double decker red United bus,A double decker bus,4,SPE1
+on a carpeted floor,on white carpeting,4,SPE2
+A tan puppy,Tan puppy,5,EQUI
+A young girl,A woman,4,SPE1
+riding,in riding,5,EQUI
+a brown horse,a brown horse,5,EQUI
+in a station,in a station,5,EQUI
+Train,a train,5,EQUI
+standing,standing,5,EQUI
+A blue bird,Blue bird,5,EQUI
+on a lawn,on green grass,5,EQUI
+a horse,on the brown horse,4,SPE2
+A woman equestrian,The woman,4,SPE1
+riding,is riding,5,EQUI
+going down,traveling,4,SIMI
+Train,A black steam train,4,SPE2
+the tracks,on the railroad tracks,5,EQUI
+A large cruise ship,A cruise ship,4,SPE1
+in harbor,at a coast,3,SPE1
+a road intersection,a paved street,3,SIMI
+crossing,cross,5,EQUI
+Two cows,Two cows,5,EQUI
+in a plain,in a field,4,SIMI
+stands,standing,5,EQUI
+A black cow and a brown cow,A black cow and a brown cow,5,EQUI
+in front of an uprooted tree,in front of a small copse,3,SPE1
+at a table,at a restaurant table,4,SPE2
+of people,of people,5,EQUI
+eat,sitting,3,REL
+A group,A group,5,EQUI
+sitting,sitting,5,EQUI
+at a restaurant table,at table,5,EQUI
+A group,Group,5,EQUI
+of people,of people,5,EQUI
+the window,at a window,5,EQUI
+looking out,are looking,4,SIMI
+Two cats,Two cats,5,EQUI
+cutting,cuts,5,EQUI
+into food,a cake,3,SPE2
+in blue shift dress,in a blue dress,5,EQUI
+Woman,A woman,5,EQUI
+atop a red an yellow motorcycle,on a red and yellow motorcycle,5,EQUI
+Two brunette girls,A couple,3,SPE1
+sit,posing,4,REL
+A man,A man,5,EQUI
+of a red tandem bicycle,of a tandem bicycle,4,SPE1
+on the back seat,on the back,4,SPE1
+A computer,A computer,5,EQUI
+on a desk,on a desk,5,EQUI
+Home office space,Small office space,4,SPE1
+with bright green walls and artwork,with bright green walls,3,SPE1
+on a beach,on shore,4,SPE1
+Yellow boat,A yellow boat,5,EQUI
+on the blue clothed dining table,with a blue table cloth,4,SPE1
+A kitchendiner,A small kitchen and a cluttered table,3,SPE2
+is sitting,is standing,2,SIMI
+on the window ledge,on the window sill,5,EQUI
+looking,looking,5,EQUI
+A gray cat,The cat,4,SPE1
+at the camera,at the camera,5,EQUI
+taking of,taking off,5,EQUI
+A green and white cargo plane,White and green commercial airliner,4,SIMI
+from an airport,of runway,4,SPE2
+inside and black and white furry enclosure,"inside a cow-schemed , fur-covered dome",5,EQUI
+are,are sitting,4,SIMI
+Two cats,Two baby kittens,4,SPE2
+A close-up view,A side view,3,SIMI
+of a horse,of a horse,5,EQUI
+'s head,'s head,5,EQUI
+An old fashioned wooden sailing ship,A wooden yacht,3,SIMI
+in the ocean,on the ocean,5,EQUI
+A white plane,A white airplane,5,EQUI
+on the runway,on a runway,5,EQUI
+Elegant dining room,An elegant pink dining room,4,SPE2
+with wood furniture,with wooden furniture,5,EQUI
+jumping,jumping,5,EQUI
+A man,A man,5,EQUI
+his dirt bike,on a bike,4,SPE1
+with green eyes,with green eyes,5,EQUI
+at the camera,into the camera,5,EQUI
+A gray cat,A gray cat,5,EQUI
+looks,looking,5,EQUI
+is sitting,sitting,5,EQUI
+A black and white cat,Black and white cat,5,EQUI
+looking up,looking up,5,EQUI
+on a brown chair,on wood chair,4,SIMI
+A man,A man and woman,5,EQUI
+with a wine bottle,with a bottle,5,EQUI
+Boy,A boy,5,EQUI
+a sheep,a sheep hay,4,REL
+feeding,feeding,5,EQUI
+is standing,stands,5,EQUI
+on the green hill,on a hillside,4,SPE1
+The white sheep,A sheep,4,SPE1
+of a dilapidated wooden fence,of an old wooden fence,5,EQUI
+A black and white photo,A black and white photo,5,EQUI
+taxing,sitting,2,SIMI
+along a runway,on the tarmac,4,SPE1
+An AeroMexico jet,A silver AreoMexico Jet Liner,4,SPE2
+of people,of people,5,EQUI
+A group,A group,5,EQUI
+sitting,sitting,5,EQUI
+around a table,around a table,5,EQUI
+is parked,parked,5,EQUI
+A bicycle,A green bike,4,SPE2
+outside a bookstore,outside a book store,5,EQUI
+window,of a window,5,EQUI
+looking out,looking out,5,EQUI
+Domestic cat,A white cat,4,SIMI
+in a living room,in a living room,5,EQUI
+with a black dog,with a black dog,5,EQUI
+Two women,Two women,5,EQUI
+stand,standing,5,EQUI
+a red canoe,in a red canoe,5,EQUI
+Two people,Two people,5,EQUI
+paddling,paddling,5,EQUI
+push,walking,4,SPE1
+A woman and child,A women and a young girl,4,SPE2
+down the sidewalk,along the sidewalk,5,EQUI
+strollers,pushchairs,5,EQUI
+around a table,around a table,5,EQUI
+of people,of people,5,EQUI
+sitting,sitting,5,EQUI
+A group,A group,5,EQUI
+on a blanket,on a purple blanket,4,SPE2
+A black and white cat,A black and white cat,5,EQUI
+lying,sleeping,4,SPE2
+A red and gray train,A red and gray train,5,EQUI
+is going,travels,5,EQUI
+through a tunnel,through a tunnel,5,EQUI
+of a living room,A living room,5,EQUI
+in the background,in the background,5,EQUI
+with a dining room,with large sofas and a dining table,2,SPE2
+a bike helmet,a helmet,4,SPE1
+A person,A person,5,EQUI
+wearing,wearing,5,EQUI
+by a shop,outside a book store,4,SPE2
+A bicycle,A green bike,4,SPE2
+is parked,parked,5,EQUI
+driving,driving,5,EQUI
+Red double decker bus,Red double decker bus,5,EQUI
+through the streets,down a street,4,SIMI
+laying,lying,5,EQUI
+on a brown table,on a wooden table,4,SIMI
+A gray cat,A gray cat,5,EQUI
+A close-up,A close-up,5,EQUI
+of a brown horse,of a horse,4,SPE1
+A black and white image,Black and white picture,5,EQUI
+laying,laying,5,EQUI
+on a rug,on a rug,5,EQUI
+of a cat,of a cat,5,EQUI
+A pile,Pile,5,EQUI
+with a chair,with chair,5,EQUI
+of used wooden building materials,of wooden debris,4,SPE2
+on top,on top,5,EQUI
+with multiple desks and green walls,with bright green walls,2,SPE1
+An office,Small office space,4,SPE2
+on a flowerpot,on a flowerpot,5,EQUI
+A bird,Bird,5,EQUI
+perched,perched,5,EQUI
+on top,on a horse,5,EQUI
+Young woman,Young girl,4,SIMI
+in riding gear,in riding gear,5,EQUI
+A small bird,A small bird,5,EQUI
+on a tiny branch,on an icy branch,3,SIMI
+a wheelie,a wheelie,5,EQUI
+performing,performing,5,EQUI
+A man,Motorcyclist,5,EQUI
+on the brown horse,on a brown horse,5,EQUI
+The young rider,A young female rider,4,SPE2
+to wood,against a wooden box,3,SPE2
+with nose,with its nose,5,EQUI
+Little white lamb,A white lamb,5,EQUI
+riding,is riding,5,EQUI
+a white and gray horse,a white and gray horse,5,EQUI
+A young girl,a little girl,4,SIMI
+in the water,on the water,5,EQUI
+is flapping,flapping,5,EQUI
+A bird,A black swan,3,SPE2
+its wings,its wings,5,EQUI
+Young woman,The woman,4,SPE1
+on top,on the brown horse,4,SPE2
+in riding gear,is riding,3,REL
+rowing,row,5,EQUI
+down a river,in water,4,SPE1
+Four people,Four people,5,EQUI
+A kitchen,Kitchen,5,EQUI
+with wooden cabinets and furniture,with wooden table and cabinets,4,SPE2
+from a bird feeder,on a bird feeder,5,EQUI
+A bird,A yellow bird,4,SPE2
+eating,eating,5,EQUI
+talking,talking,5,EQUI
+in front of a plane,in front of a small plane,4,SPE2
+Two men,Two men,5,EQUI
+wearing,wearing,5,EQUI
+A young blonde girl,A young girl,4,SPE1
+a smile and a bicycle helmet,a bike helmet,3,SPE1
+at the train station,at a train station,5,EQUI
+The train,A train,5,EQUI
+sits,parked,5,EQUI
+eating,eating,5,EQUI
+A small bird,Bird,4,SPE1
+from the feeder,from a bird feeder,5,EQUI
+Two brown horses,Brown horse,4,SIMI
+in grassy field,in middle,4,SPE2
+standing,standing,5,EQUI
+is perched,perched,5,EQUI
+A red bird,A small red and gray bird,3,SPE2
+in a tree,in a tree,5,EQUI
+on couch,on a sofa,5,EQUI
+Boy,A small boy,4,SPE2
+lying,laying,5,EQUI
+with small white dog,with a dog,3,SPE1
+traveling,traveling,5,EQUI
+on the railroad tracks,on the railroad tracks,5,EQUI
+A green steam engine,A black steam train,4,SIMI
+The man,A man,5,EQUI
+in front of the train,in front of a silver train,4,SPE2
+poses,stands,4,REL
+A kitchen sink and countertop,A small kitchen,3,REL
+on shelves,on the shelves and on the counter,3,SPE2
+with bowls,with items,3,SPE1
+a bicycle,a mountain bike,4,SPE2
+riding,riding,5,EQUI
+A woman,A women,5,EQUI
+on a large concrete area,on a large concrete area,5,EQUI
+A man,A man,5,EQUI
+next to a yellow sports car,next to a yellow Corvette,4,SPE2
+is standing,stands,5,EQUI
+with a white horse,a white horse,5,EQUI
+A woman,A woman,5,EQUI
+Older gentleman,A man,4,SPE1
+at red motorcycle,at a red motorcycle,5,EQUI
+looking,looking,5,EQUI
+in front of a train,in front of a silver train,4,SPE2
+stands,stands,5,EQUI
+A man,A man,5,EQUI
+near a small plane,a small airplane,5,EQUI
+A boat,A boat,5,EQUI
+on the water,in the water,5,EQUI
+is,is,5,EQUI
+sitting,pose,4,REL
+around a table,around a dining table,4,SPE2
+Group,A group,5,EQUI
+of elderly people,of elderly people,5,EQUI
+The brown and white cows,Brown and white cows,5,EQUI
+in the trough,from a trough,5,EQUI
+are eating,are eating,5,EQUI
+towards a wooden telephone pole,above the telephone wires,2,SIMI
+Two green birds,Two green birds,5,EQUI
+fly,flying,5,EQUI
+stands,is standing,5,EQUI
+in front of a `` Going Places '' bus,in front of the open door,3,SIMI
+A young woman,TThe girl,4,SIMI
+perched,is perched,5,EQUI
+on a gloved hand,'s gloved hand,5,EQUI
+A blue bird,A bird,4,SPE1
+A baby,A baby,5,EQUI
+a ketchup packet,a ketchup packet,5,EQUI
+holds,holds,5,EQUI
+on the sofa,on the back,4,SPE2
+sitting,sit,5,EQUI
+looking out,looking out,5,EQUI
+the window,the window,5,EQUI
+Two cats,Two cats,5,EQUI
+standing,standing,5,EQUI
+in a field,in a field,5,EQUI
+A dark brown horse,Horse,4,SPE1
+on a sidewalk,on the sidewalk,5,EQUI
+parked,parked,5,EQUI
+A blue scooter,A blue moped,4,SPE1
+A black and white cat,A black and white cat,5,EQUI
+Three people,Two elderly women,3,SPE2
+sitting,sit,5,EQUI
+at dinner table,at a dinner table,5,EQUI
+traveling,is,2,SIMI
+on the street,on the street,5,EQUI
+A white and red bus,The red bus,4,SPE1
+in the water,in the water,5,EQUI
+A large black bird,The birds,2,SPE1
+is sitting,are swimming,2,SIMI
+is sitting,is standing,2,SIMI
+on boat,A wooden yacht,4,SPE2
+on the water,on the ocean,4,SPE2
+The television and desk,A television and a laptop computer,3,SIMI
+of hotel room,on in a hotel room,5,EQUI
+A woman,A person,4,SPE1
+wearing,wearing,5,EQUI
+A close-up picture,A close-up picture,5,EQUI
+Two women,A woman,4,SIMI
+with a baby,with a baby,5,EQUI
+posing,poses,5,EQUI
+inside a train station,at the train station,5,EQUI
+Two trains,The train,4,SIMI
+A man and two women,A man and women,4,SPE1
+at the camera,at the camera,5,EQUI
+while sitting,while standing,2,SIMI
+smiling,smiling,5,EQUI
+in a bright room,in a living room,3,SIMI
+"A television , upholstered chair , and coffee stable",A leather couch and wooden table,1,SIMI
+Tan cow,sheep,2,SIMI
+on a grassy field,in grassy field,5,EQUI
+A close-up,A close-up,5,EQUI
+A bay foal,of young horse,4,SPE1
+is walking,walking,5,EQUI
+next to its mother,next to a larger horse,4,SPE1
+A small child,A small child,5,EQUI
+in front of a building,in front of a dining room,1,REL
+A woman,Two women and a baby,2,SPE2
+stands,pose,3,REL
+on table,on the table,5,EQUI
+sitting,sitting,5,EQUI
+Young baby girl,with a smiling baby,3,SIMI
+A black and white cow,Black and white cows,4,SIMI
+in a pen,behind a fence,3,SIMI
+for the camera,at the camera,5,EQUI
+standing,sitting,2,SIMI
+A black and white horned cow,of a cat,2,SIMI
+at a restaurant table,around a table,4,SPE1
+of people,of people,5,EQUI
+A group,A group,5,EQUI
+sitting,sitting,5,EQUI
+in a field,in a green field,4,SPE2
+is sitting,sitting,4,SIMI
+The cat,Two eagles,1,SIMI
+is looking up,looking,4,SPE1
+at the camera,at the camera,5,EQUI
+The black and white cat,A black and white dog,3,SIMI
+sitting,sitting,5,EQUI
+of a bottle,A bottle,4,SPE2
+atop a rock carving,on a stone,3,REL
+of the yard,in the field,4,SPE1
+sits,standing,2,SIMI
+A lone cow,a black and white cow,4,SIMI
+A girl,A girl,5,EQUI
+in the background,in the background,5,EQUI
+standing,stands,5,EQUI
+Two brown horses,A brown horse,4,SIMI
+in a green meadow,in tall grass,4,SIMI
+in the snow,on the snow,5,EQUI
+sitting,stand,2,SIMI
+A red bird and four other birds,Five birds,4,SPE1
+at the dinner table,around a dining table,5,EQUI
+poses,pose,5,EQUI
+An older Asian couple,A group,3,SPE1
+with a pillow,on an animal print blanket,1,SPE2
+A cat,The cat,5,EQUI
+sleeping,is laying,4,SPE1
+driving,driving,5,EQUI
+Cars,Vehicles,4,SPE1
+near a model building,infant of an ornate building,3,SIMI
+A young woman,A man,3,SPE1
+a Bay hose,at a horse,4,SPE1
+A woman,Four women and two men,2,SPE2
+at the dining table,at a long table,4,SPE2
+A man,A woman,3,SIMI
+a white horse,a white horse,5,EQUI
+riding,leading,4,SIMI
+laying,laying,5,EQUI
+A white cat,A white cat,5,EQUI
+Two men,Two women,3,SIMI
+standing,standing,5,EQUI
+A woman,A man,3,SIMI
+a white horse,on a white horse,5,EQUI
+a brown horse,brown horse,5,EQUI
+riding,riding,5,EQUI
+A woman,Person,3,SPE1
+A passenger train,A passenger train,5,EQUI
+the tracks,on train tracks,5,EQUI
+A black train,A long train,4,SIMI
+in a living room,in a living room,5,EQUI
+Blue couch and twin bed,A leather couch and wooden table,1,SIMI
+A white leather couch,A television,2,REL
+Two buses,Yellow scooter,2,SIMI
+on a street,in an alley way,4,SPE2
+parked,parked,5,EQUI
+sitting,is sitting,4,SIMI
+A woman,A man,3,SIMI
+up,up,5,EQUI
+a baby,a baby,5,EQUI
+above her,above him,3,SIMI
+holding,holding,5,EQUI
+on the floor,on the floor,5,EQUI
+is laying down,is laying,5,EQUI
+sleeping,laying,4,SPE1
+A black and white cat,A black and white cat,5,EQUI
+Two women,Two women,5,EQUI
+A yellow and black bird,A flock,2,SPE1
+in afield,in a field,5,EQUI
+sheep,next to a sheep,5,EQUI
+standing,stands,5,EQUI
+A black and white photo,A black and white photo,5,EQUI
+standing,standing,5,EQUI
+Black bird,Blue bird,4,SIMI
+Several people,People,5,EQUI
+on motorcycles,mopeds,5,EQUI
+in a market square,in an urban setting,4,SPE1
+Domestic cat,Tan domestic cat,4,SPE2
+standing,standing,5,EQUI
+looking up,looking up,5,EQUI
+at the camera,at the camera,5,EQUI
+A small cat,The small dog,2,SIMI
+look,looking,5,EQUI
+at the camera,at the camera,5,EQUI
+Tan cows,A white and gray cat,2,SIMI

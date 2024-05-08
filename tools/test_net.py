@@ -13,10 +13,19 @@ from net_config import cfg
 from data import make_data_loader
 from engine.inference import inference
 from modeling import build_model
-from utils.logger import setup_logger
+import logging
 
 
 def main():
+    """
+    Main function for running the Roberta iSTS Inference.
+
+    Args:
+        None
+
+    Returns:
+        None
+    """
     parser = argparse.ArgumentParser(description="Roberta iSTS Inference")
     parser.add_argument(
         "--config_file", default="", help="path to config file", type=str
@@ -25,7 +34,6 @@ def main():
                         nargs=argparse.REMAINDER)
 
     args = parser.parse_args()
-
     num_gpus = int(os.environ["WORLD_SIZE"]) if "WORLD_SIZE" in os.environ else 1
 
     if args.config_file != "":
@@ -37,7 +45,7 @@ def main():
     if output_dir and not os.path.exists(output_dir):
         mkdir(output_dir)
 
-    logger = setup_logger("model", output_dir, 0)
+    logger = logging.getLogger("test_net")
     logger.info("Using {} GPUS".format(num_gpus))
     logger.info(args)
     logger.propagate = False

@@ -2,7 +2,6 @@
 
 import logging
 import torch
-import datetime
 
 
 def do_train(
@@ -12,6 +11,19 @@ def do_train(
         optimizer,
         losses,
 ):
+    """
+    Perform the training loop for the model.
+
+    Args:
+        cfg (object): Configuration object containing training settings.
+        model (object): The model to be trained.
+        train_loader (object): The data loader for training data.
+        optimizer (object): The optimizer used for training.
+        losses (list): List of loss functions used for training.
+
+    Returns:
+        None
+    """
 
     output_dir = cfg.OUTPUT_DIR
    
@@ -34,14 +46,12 @@ def do_train(
         for i, data in enumerate(train_loader, 0):
             inputs, value, explanation = data[0].to(device), data[1].to(device), data[2].to(device)
             # forward + backward + optimize
-            #print(inputs, value, explanation)
             out1, out2 = model(inputs)
-            #print(out1, out2)
 
             explanation = explanation.type(torch.LongTensor).to(device)
             loss1 = losses[0](out1, value)
             loss2 = losses[1](out2, explanation)
-            loss = loss1 + loss2
+            loss = loss1 +  loss2
 
             optimizer.zero_grad()
             loss.backward()
@@ -64,9 +74,9 @@ def do_train(
         running_loss1 = 0.0
         running_loss2 = 0.0
         j+=1
-        if j % 50 == 0:
+        if j % 25 == 0:
             logger.info('Finished Training')
             logger.info('Saving model ...')
-            output_filename = output_dir + '/' + datetime.datetime.now().strftime("%d%m%Y%H%M%S") + '_testing_model_same.pt'
+            output_filename = output_dir + '/' + "all_80_softmax_" + str(j) + '_testing_model_type.pt'
             torch.save(model.state_dict(), output_filename) 
             logger.info('Model saved as :' + output_filename)

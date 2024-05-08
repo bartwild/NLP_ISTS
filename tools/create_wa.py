@@ -8,20 +8,23 @@ sys.path.append('.')
 from net_config import cfg
 from engine.inference_to_wa import format_to_wa
 from modeling import build_model
-
-from utils.logger import setup_logger
+import logging
 
 
 def main():
+    """
+    Main function for creating .wa files using the Roberta iSTS model.
+
+    This function parses command-line arguments, merges configurations, sets up logging,
+    loads the model, and formats the output to .wa files.
+    """
     parser = argparse.ArgumentParser(description="Roberta iSTS - creating .wa files")
     parser.add_argument(
         "--config_file", default="", help="path to config file", type=str
     )
     parser.add_argument("opts", help="Modify config options using the command-line", default=None,
                         nargs=argparse.REMAINDER)
-
     args = parser.parse_args()
-
     num_gpus = int(os.environ["WORLD_SIZE"]) if "WORLD_SIZE" in os.environ else 1
 
     if args.config_file != "":
@@ -33,7 +36,7 @@ def main():
     if output_dir and not os.path.exists(output_dir):
         mkdir(output_dir)
 
-    logger = setup_logger("model", output_dir, 0)
+    logger = logging.getLogger("create_wa")
     logger.info("Using {} GPUS".format(num_gpus))
     logger.info(args)
     logger.propagate = False
