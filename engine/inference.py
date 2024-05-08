@@ -38,7 +38,7 @@ def inference(cfg, model, val_loader):
             pred_val.extend(out1.cpu().numpy().tolist())  # Convert tensor to list and extend pred_val
             pred_exp.extend(predicted.cpu().numpy().tolist())  # Convert tensor to list and extend pred_exp
             #print(gold_val, pred_val)
-            print(gold_exp, pred_exp)
+            #print(gold_exp, pred_exp)
             if i % log_period == log_period -1:
                 logger.info('Progress [%d/%d]' % (i + 1, len(val_loader)))
 
