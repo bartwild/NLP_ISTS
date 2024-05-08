@@ -5,8 +5,6 @@
 -  [Training model](#training-model)
 -  [Testing model](#testing-model)
 -  [Testing model with SemEval scripts](#testing-model-with-semeval-scripts)
--  [Project structure](#project-structure)
--  [Pretrained RoBERTa](#pretrained-roberta)
 -  [Credits](#credits)
 
 ## Introduction
@@ -44,32 +42,6 @@ To test model path to model weights has to be provided:
 ```bash
 python ./tools/test_net.py TEST.WEIGHT  "output/29052021142858_model.pt"
 ```
-Changing other parameters works just like in [training](#training-model).
-
-**NOTE**: There are 4 test datasets:
-- images
-- headline
-- answers-students
-- all above combined (*default*)
-
-
-
-At default 4 metrics are calculated:
-- F1 score for similarity values
-- F1 score for relation labels
-- Pearson correlation for similarity values
-- Pearson correlation for relation labels
-
-For model trained with default parameters results were following:
-
-Metric | Train set score | Test set score
----|---|---
-`F1 score for similarity values` | 0.773 | 0.724
-`F1 score for relation labels` | 0.933 | 0.742
-`Pearson correlation for similarity values` | 0.887 | 0.811
-`Pearson correlation for relation labels` | 0.889 | 0.725 
-
-Trained model that achived these results is available to download under this [link](https://drive.google.com/file/d/1-2sRnEUoQsPidAC9jvc2ZJdRc4XNbRmc/view?usp=sharing).
 
 # Testing model with SemEval scripts
 There are 3 perl scripts created by competition organizers (dowloaded and saved in `tests` folder):
@@ -125,11 +97,6 @@ perl tests/evalF1_penalty.pl data/datasets/STSint.testinput.answers-students.wa 
 │    └── evalF1_no_penalty.pl
 |    └── evalF1_penalty.pl
 |    └── wellformed.pl
-|
-|
-└── utils
-│    └── logger.py
-
 ```
 
 
