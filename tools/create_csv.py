@@ -74,7 +74,6 @@ def main():
                     'semeval_data/train/STSint.gs.images.wa',
                     'semeval_data/train_students_answers_2015_10_27.utf-8/STSint.input.answers-students.wa']
     test_files = ['semeval_data/test_goldStandard/STSint.testinput.answers-students.wa',
-                'semeval_data/test_goldStandard/STSint.testinput.headlines.wa',
                 'semeval_data/test_evaluation_task2c/STSint.gs.headlines.wa',
                 'semeval_data/test_evaluation_task2c/STSint.gs.images.wa']
 
@@ -92,9 +91,9 @@ def main():
     logger.info("Created data/datasets/test.csv")
     create_csv([test_files[0]], "data/datasets/test_answers-students.csv")
     logger.info("Created data/datasets/test_answers-students.csv")
-    create_csv([test_files[2]], "data/datasets/test_headlines.csv")
+    create_csv([test_files[1]], "data/datasets/test_headlines.csv")
     logger.info("Created data/datasets/test_headlines.csv")
-    create_csv([test_files[3]], "data/datasets/test_images.csv")
+    create_csv([test_files[2]], "data/datasets/test_images.csv")
     logger.info("Created data/datasets/test_images.csv")
 
 
