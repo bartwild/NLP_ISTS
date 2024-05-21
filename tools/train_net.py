@@ -34,7 +34,7 @@ def setup_logging(output_dir):
     logger.addHandler(handler)
 
     # If an output directory is specified, create it and set up file logging
-    if output_dir and not os.path.exists(output_dir)):
+    if output_dir and not os.path.exists(output_dir):
         mkdir(output_dir)
     if output_dir:
         file_handler = logging.FileHandler(os.path.join(output_dir, "training.log"))

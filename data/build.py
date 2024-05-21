@@ -2,11 +2,11 @@
 from torch.utils import data
 import torch
 from torch.nn.utils.rnn import pad_sequence
-from .datasets.semeval_dataset import SemevalDatset
+from .datasets.semeval_dataset import SemevalDataset
 
 # Function to build the dataset from a given CSV file
 def build_dataset(csv):
-    datasets = SemevalDatset(csv)  # Initialize the SemevalDataset with the CSV file
+    datasets = SemevalDataset(csv)  # Initialize the SemevalDataset with the CSV file
     return datasets  # Return the dataset object
 
 # Function to create a DataLoader object for training or testing
