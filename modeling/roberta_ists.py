@@ -1,5 +1,4 @@
-# encoding: utf-8
-
+# Import necessary modules
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -19,16 +18,23 @@ class RobertaISTS(torch.nn.Module):
         """
         super(RobertaISTS, self).__init__()
 
+        # Load the pre-trained RoBERTa model
         self.roberta = torch.hub.load('pytorch/fairseq', 'roberta.large')
-        i=0
+
+        # Freeze all parameters initially
+        i = 0
         for param in self.roberta.parameters():
-            i+=1
+            i += 1
             param.requires_grad = False
-        j=0
+
+        # Unfreeze the last `params_to_optimize` parameters
+        j = 0
         for param in self.roberta.parameters():
-            j+=1
+            j += 1
             if j >= i - params_to_optimize:
                 param.requires_grad = True
+
+        # Define the linear layers and dropout layers for the model
         self.linear1 = nn.Linear(in_features=1024, out_features=hidden_neurons)
         self.linear2 = nn.Linear(in_features=hidden_neurons, out_features=1)
         self.linear3 = nn.Linear(in_features=1024, out_features=hidden_neurons)
@@ -48,17 +54,20 @@ class RobertaISTS(torch.nn.Module):
         Returns:
             tuple: A tuple containing the output for STS value prediction and explanatory layer.
         """
+        # Extract features from RoBERTa
         features = self.roberta.extract_features(x)
+        # Mean pooling of features
         x = torch.mean(features, 1)
+        # Apply dropout
         x = self.dropout1(x)
 
-        #STS value prediction
+        # STS value prediction path
         x1 = self.relu1(self.linear1(x))
         x1 = self.dropout2(x1)
-        out1 = self.linear2(x1).squeeze(-1)
+        out1 = self.linear2(x1).squeeze(-1)  # Regression output
 
-        #explanatory layer
+        # Explanatory layer path
         x2 = self.relu2(self.linear3(x))
-        out2 = F.log_softmax(self.linear4(x2), dim=1)
+        out2 = F.log_softmax(self.linear4(x2), dim=1)  # Classification output
 
-        return out1, out2
+        return out1, out2  # Return both regression and classification outputs
