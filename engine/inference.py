@@ -5,7 +5,6 @@ import torch
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
 def setup_device(cfg):
     """
     Sets up the device for inference.
@@ -17,7 +16,6 @@ def setup_device(cfg):
         torch.device: The device to be used for inference.
     """
     return torch.device(cfg.MODEL.DEVICE)
-
 
 def log_progress(i, len_val_loader, log_period, logger):
     """
@@ -34,7 +32,6 @@ def log_progress(i, len_val_loader, log_period, logger):
     """
     if i % log_period == log_period - 1:
         logger.info('Progress [%d/%d]' % (i + 1, len_val_loader))
-
 
 def log_metrics(gold_exp, pred_exp, gold_val, pred_val, logger):
     """
@@ -54,7 +51,6 @@ def log_metrics(gold_exp, pred_exp, gold_val, pred_val, logger):
     logger.info('| Pearson for explanations: {:.3f}'.format(pearsonr(gold_exp, pred_exp)[0]))
     logger.info('| F1 score for values: %.3f' % f1_score(gold_val, pred_val, average='micro'))
     logger.info('| Pearson for values: {:.3f}'.format(pearsonr(gold_val, pred_val)[0]))
-
 
 def save_confusion_matrix(gold_exp, pred_exp, filename="matrix_values"):
     """
@@ -87,7 +83,7 @@ def plot_validation_loss(global_steps_list, valid_loss_list, output_dir):
     plt.savefig(f'{output_dir}/validation_loss.png')
     plt.show()
 
-def inference(cfg, model, val_loader):
+def inference(cfg, model, val_loader, losses):
     """
     Perform inference on the given validation data using the provided model.
 
@@ -95,6 +91,7 @@ def inference(cfg, model, val_loader):
         cfg (Config): The configuration object containing model and inference settings.
         model (torch.nn.Module): The model to be used for inference.
         val_loader (torch.utils.data.DataLoader): The data loader for the validation data.
+        losses (list): List of loss functions used for training.
 
     Returns:
         None
@@ -110,11 +107,12 @@ def inference(cfg, model, val_loader):
     gold_exp = []
     pred_val = []
     pred_exp = []
-    val_loss_list = []
-    global_steps_list = []
 
     val_loss = 0.0
+    val_loss1 = 0.0
+    val_loss2 = 0.0
     global_step = 0
+
     # Set the model to evaluation mode and move it to the device
     model.eval()
     model.to(device)
@@ -128,9 +126,15 @@ def inference(cfg, model, val_loader):
             out1, out2 = model(inputs)
             _, predicted = torch.max(out2, 1)  # Get the predicted explanations
             out1 = torch.round(out1)  # Round the predicted values
+            explanation = explanations.type(torch.LongTensor).to(device)
 
-            loss = torch.nn.CrossEntropyLoss()(out1, values)  # Compute loss
+            loss1 = losses[0](out1, values)
+            loss2 = losses[1](out2, explanation)
+            loss = loss1 + loss2
+
             val_loss += loss.item()
+            val_loss1 += loss1.item()
+            val_loss2 += loss2.item()
             global_step += 1
             # Convert tensors to lists and extend the respective lists
             gold_val.extend(values.cpu().numpy().tolist())
@@ -141,17 +145,22 @@ def inference(cfg, model, val_loader):
             # Log progress periodically
             log_progress(i, len(val_loader), log_period, logger)
 
-
-            if global_step % log_period == 0:
-                val_loss /= log_period
-                val_loss_list.append(val_loss)
-                global_steps_list.append(global_step)
-                val_loss = 0.0
-
-
     # Calculate and log performance metrics
+    avg_val_loss = val_loss / global_step
+    avg_val_loss1 = val_loss1 / global_step
+    avg_val_loss2 = val_loss2 / global_step
+
+    logger.info('EPOCH TOTAL LOSS: %.3f EXP LOSS: %.3f VAL LOSS: %.3f' %
+                (avg_val_loss, avg_val_loss2, avg_val_loss1))
+
     log_metrics(gold_exp, pred_exp, gold_val, pred_val, logger)
 
     # Generate and save confusion matrix for explanations
     save_confusion_matrix(gold_exp, pred_exp)
-    plot_validation_loss(global_steps_list, val_loss_list, cfg.OUTPUT_DIR)
+
+    # Append the loss values to a file
+    with open(f"inference_loss_low_lr.txt", "a") as f:
+        f.write(f"EPOCH TOTAL LOSS: {avg_val_loss:.3f} EXP LOSS: {avg_val_loss2:.3f} VAL LOSS: {avg_val_loss1:.3f}\n")
+
+# Example call to the function
+# inference(cfg, model, val_loader, [loss_mse, loss_nlll])

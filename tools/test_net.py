@@ -10,6 +10,7 @@ from net_config import cfg
 from data import make_data_loader
 from engine.inference import inference
 from modeling import build_model
+import torch.nn.functional as F
 
 
 def setup_logging(output_dir):
@@ -76,7 +77,7 @@ def perform_inference(cfg, logger):
     val_loader = make_data_loader(cfg, cfg.DATASETS.TEST, is_train=False)
 
     # Perform inference using the model and validation data
-    inference(cfg, model, val_loader)
+    inference(cfg, model, val_loader, losses=[F.mse_loss, F.nll_loss],)
 
 
 def main():

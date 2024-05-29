@@ -127,7 +127,7 @@ def do_train(cfg, model, train_loader, optimizer, losses):
 
         j += 1
 
-        if j % log_period == 0:
+        if j % 5 == 0 or j == 1:
             logger.info('Finished Training')
             logger.info('Saving model ...')
             save_model(model, output_dir, j, logger)
