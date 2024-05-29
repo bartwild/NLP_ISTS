@@ -1,5 +1,6 @@
 import logging
 import torch
+import matplotlib.pyplot as plt
 
 
 def setup_device(cfg):
@@ -83,7 +84,10 @@ def do_train(cfg, model, train_loader, optimizer, losses):
     model = model.to(device)
     j = 0
 
+    train_losses = []
+
     for epoch in range(epochs):
+        model.train()
         running_loss = 0.0
         running_loss1 = 0.0
         running_loss2 = 0.0
@@ -115,17 +119,29 @@ def do_train(cfg, model, train_loader, optimizer, losses):
                 partial_loss1 = 0.0
                 partial_loss2 = 0.0
 
-        logger.info('EPOCH: [%d] FINISHED loss summed: %.3f loss MSE: %.3f loss NLLL: %.3f' %
-                    (epoch + 1, running_loss / len(train_loader),
-                     running_loss1 / len(train_loader),
-                     running_loss2 / len(train_loader)))
+        train_epoch_loss = running_loss / len(train_loader)
+        train_losses.append(train_epoch_loss)
 
-        running_loss = 0.0
-        running_loss1 = 0.0
-        running_loss2 = 0.0
+        logger.info('EPOCH: [%d] FINISHED loss summed: %.3f loss MSE: %.3f loss NLLL: %.3f' %
+                    (epoch + 1, train_epoch_loss, running_loss1 / len(train_loader), running_loss2 / len(train_loader)))
+
         j += 1
 
         if j % log_period == 0:
             logger.info('Finished Training')
             logger.info('Saving model ...')
             save_model(model, output_dir, j, logger)
+
+    # Generowanie wykresu strat treningowych
+    epochs_range = range(1, epochs + 1)
+    plt.figure(figsize=(10, 8))
+
+    plt.plot(epochs_range, train_losses, label='Training loss')
+    plt.title('Training loss')
+    plt.xlabel('Epoch')
+    plt.ylabel('Loss')
+    plt.legend()
+
+    plt.tight_layout()
+    plt.savefig('training_loss.png')
+    plt.show()

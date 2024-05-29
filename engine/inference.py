@@ -76,6 +76,16 @@ def save_confusion_matrix(gold_exp, pred_exp, filename="matrix_values"):
     plt.ylabel('Actual Labels')
     plt.savefig(filename)
 
+def plot_validation_loss(global_steps_list, valid_loss_list, output_dir):
+    plt.figure(figsize=(10, 8))
+    plt.plot(global_steps_list, valid_loss_list, label='Validation loss')
+    plt.title('Validation loss')
+    plt.xlabel('Global Steps')
+    plt.ylabel('Loss')
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(f'{output_dir}/validation_loss.png')
+    plt.show()
 
 def inference(cfg, model, val_loader):
     """
@@ -100,7 +110,11 @@ def inference(cfg, model, val_loader):
     gold_exp = []
     pred_val = []
     pred_exp = []
+    val_loss_list = []
+    global_steps_list = []
 
+    val_loss = 0.0
+    global_step = 0
     # Set the model to evaluation mode and move it to the device
     model.eval()
     model.to(device)
@@ -115,6 +129,9 @@ def inference(cfg, model, val_loader):
             _, predicted = torch.max(out2, 1)  # Get the predicted explanations
             out1 = torch.round(out1)  # Round the predicted values
 
+            loss = torch.nn.CrossEntropyLoss()(out1, values)  # Compute loss
+            val_loss += loss.item()
+            global_step += 1
             # Convert tensors to lists and extend the respective lists
             gold_val.extend(values.cpu().numpy().tolist())
             gold_exp.extend(explanations.cpu().numpy().tolist())
@@ -124,8 +141,17 @@ def inference(cfg, model, val_loader):
             # Log progress periodically
             log_progress(i, len(val_loader), log_period, logger)
 
+
+            if global_step % log_period == 0:
+                val_loss /= log_period
+                val_loss_list.append(val_loss)
+                global_steps_list.append(global_step)
+                val_loss = 0.0
+
+
     # Calculate and log performance metrics
     log_metrics(gold_exp, pred_exp, gold_val, pred_val, logger)
 
     # Generate and save confusion matrix for explanations
     save_confusion_matrix(gold_exp, pred_exp)
+    plot_validation_loss(global_steps_list, val_loss_list, cfg.OUTPUT_DIR)
